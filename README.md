@@ -1,1 +1,3 @@
-# MH6822_Assignment1
+Zhou Qiaoyi
+G2505225E
+qiaoyi001@e.ntu.edu.sg
