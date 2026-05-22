@@ -1,0 +1,1001 @@
+transaction_id,transaction_amount,currency,origin_country,destination_country,customer_risk_level,customer_type,sanctions_match_score,new_counterparty,transaction_frequency_7d,beneficial_owner_complete,wire_transfer_info_complete,structuring_like_pattern,known_suspicious_pattern,us_score,us_alert,us_reasons,sg_score,sg_alert,sg_reasons
+TXN0001,17169.72,USD,Singapore,United States,medium,individual,0.051,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0002,18555.77,SGD,United States,Singapore,low,individual,0.156,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0003,26416.59,SGD,Hong Kong,United States,low,small_business,0.043,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0004,72264.57,USD,Switzerland,Singapore,medium,small_business,0.085,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0005,330610.98,USD,Indonesia,United States,medium,corporate,0.175,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0006,310143.15,EUR,United States,United Kingdom,high,corporate,0.314,N,7,Y,N,N,N,22,N,US nexus; high-risk customer,55,Y,high-risk customer; wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0007,441601.23,SGD,Singapore,Hong Kong,low,corporate,0.188,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0008,35834.42,GBP,United States,Singapore,low,small_business,0.035,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0009,11414.99,USD,Singapore,UAE,low,individual,0.409,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0010,17467.05,USD,Indonesia,United States,low,individual,0.161,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0011,28163.04,GBP,Malaysia,Singapore,medium,small_business,0.278,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0012,89284.37,USD,United States,Panama,high,small_business,0.46,N,2,N,Y,N,N,42,N,USD transaction; US nexus; high-risk customer; high-risk country exposure,63,Y,high-risk customer; beneficial ownership incomplete; high-risk country exposure
+TXN0013,4605.54,USD,Singapore,United Kingdom,low,individual,0.623,N,2,Y,Y,N,N,37,N,elevated sanctions match score; USD transaction,0,N,no major Singapore trigger
+TXN0014,25082.64,USD,United States,United Kingdom,high,small_business,0.281,N,2,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,20,N,high-risk customer
+TXN0015,178682.38,USD,United Kingdom,United States,medium,private_banking,0.079,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0016,70512.85,USD,Singapore,United States,high,small_business,0.49,N,6,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,20,N,high-risk customer
+TXN0017,14923.83,USD,United States,Hong Kong,medium,small_business,0.45,Y,3,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0018,43354.76,USD,United States,Singapore,medium,small_business,0.004,N,5,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0019,460499.95,EUR,Singapore,British Virgin Islands,high,corporate,0.765,N,1,Y,Y,N,Y,65,Y,high sanctions match score; high-risk customer; high-risk country exposure,60,Y,high-risk customer; high-risk country exposure; large transaction inconsistent with customer risk; high sanctions match score
+TXN0020,15251.6,EUR,Singapore,Malaysia,high,individual,0.359,Y,5,Y,Y,N,N,12,N,high-risk customer,30,N,high-risk customer; new counterparty
+TXN0021,19132.37,SGD,UAE,Indonesia,medium,individual,0.379,N,2,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0022,101928.76,SGD,Singapore,United States,high,small_business,0.213,Y,3,N,Y,N,N,30,N,US nexus; high-risk customer; large transaction with new counterparty,68,Y,high-risk customer; beneficial ownership incomplete; new counterparty; large transaction inconsistent with customer risk
+TXN0023,51930.23,SGD,British Virgin Islands,Singapore,low,corporate,0.269,N,4,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0024,89397.09,USD,Singapore,Hong Kong,medium,small_business,0.298,N,1,N,N,N,N,12,N,USD transaction,53,Y,beneficial ownership incomplete; wire transfer information incomplete
+TXN0025,36262.61,USD,United States,Indonesia,medium,small_business,0.086,Y,2,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0026,46658.62,SGD,United Kingdom,Singapore,medium,small_business,0.384,N,1,N,Y,N,N,0,N,no major US trigger,28,N,beneficial ownership incomplete
+TXN0027,5327.99,USD,Singapore,Indonesia,low,individual,0.017,Y,5,Y,Y,N,N,12,N,USD transaction,10,N,new counterparty
+TXN0028,29624.01,SGD,Singapore,United States,low,small_business,0.081,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0029,75336.74,USD,United States,Panama,medium,small_business,0.553,N,4,Y,Y,N,N,55,Y,elevated sanctions match score; USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0030,7325.33,EUR,Switzerland,United States,low,individual,0.232,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0031,2568.34,USD,United Kingdom,Singapore,high,individual,0.268,N,1,Y,Y,N,N,24,N,USD transaction; high-risk customer,20,N,high-risk customer
+TXN0032,471678.51,SGD,United Kingdom,Singapore,medium,private_banking,0.064,N,1,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0033,1332.01,EUR,Singapore,United States,high,individual,0.263,N,4,N,Y,N,N,22,N,US nexus; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0034,19500,GBP,Malaysia,United States,low,private_banking,0.063,N,5,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0035,59468.64,USD,Malaysia,Switzerland,medium,small_business,0.063,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0036,10267.2,USD,Singapore,UAE,low,individual,0.432,Y,4,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0037,89500.17,USD,United States,Singapore,high,small_business,0.99,N,9,N,Y,N,Y,79,Y,high sanctions match score; USD transaction; US nexus; high-risk customer,75,Y,high-risk customer; beneficial ownership incomplete; unusual transaction frequency; high sanctions match score
+TXN0038,633325.13,USD,Malaysia,Singapore,high,private_banking,0.176,Y,5,Y,Y,N,N,32,N,USD transaction; high-risk customer; large transaction with new counterparty,40,N,high-risk customer; new counterparty; large transaction inconsistent with customer risk
+TXN0039,7503.19,USD,Singapore,United States,low,individual,0.137,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0040,193791.25,SGD,Singapore,Hong Kong,low,corporate,0.052,Y,1,Y,Y,N,N,8,N,large transaction with new counterparty,10,N,new counterparty
+TXN0041,16342.2,HKD,Singapore,Hong Kong,medium,individual,0.227,Y,4,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0042,233904.38,HKD,Singapore,United States,low,corporate,0.078,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0043,325037.41,USD,United States,Singapore,medium,corporate,0.088,N,1,N,Y,N,N,22,N,USD transaction; US nexus,38,N,beneficial ownership incomplete; large transaction inconsistent with customer risk
+TXN0044,13470.97,SGD,British Virgin Islands,Malaysia,medium,individual,0.395,N,4,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0045,158952.88,USD,United States,UAE,high,corporate,0.258,N,6,N,Y,N,N,42,N,USD transaction; US nexus; high-risk customer; high-risk country exposure,73,Y,high-risk customer; beneficial ownership incomplete; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0046,21678.37,GBP,United States,Indonesia,medium,individual,0.083,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0047,4437.98,SGD,United Kingdom,Malaysia,medium,individual,0.054,N,2,Y,Y,N,Y,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0048,19500,SGD,United States,UAE,low,corporate,0.372,Y,1,Y,Y,Y,Y,48,Y,US nexus; structuring-like pattern; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0049,19500,SGD,United States,Malaysia,medium,corporate,0.189,N,4,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0050,442419.8,EUR,Singapore,United States,medium,corporate,0.14,N,2,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0051,293.6,EUR,Hong Kong,United States,medium,individual,0.321,Y,6,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0052,664163.73,HKD,Singapore,United States,high,private_banking,0.293,N,5,Y,N,N,N,22,N,US nexus; high-risk customer,55,Y,high-risk customer; wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0053,7205.88,SGD,Indonesia,Singapore,low,individual,0.164,Y,6,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0054,8737.47,SGD,Singapore,British Virgin Islands,high,individual,0.428,Y,3,Y,Y,N,N,20,N,high-risk customer; high-risk country exposure,45,Y,high-risk customer; new counterparty; high-risk country exposure
+TXN0055,190667.19,USD,Singapore,UAE,medium,corporate,0.441,N,2,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0056,640845.62,USD,Singapore,United States,low,private_banking,0.166,Y,3,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0057,16674.25,SGD,Hong Kong,Singapore,high,individual,0.576,N,7,N,N,N,N,37,N,elevated sanctions match score; high-risk customer,73,Y,high-risk customer; beneficial ownership incomplete; wire transfer information incomplete
+TXN0058,13687.67,USD,Singapore,British Virgin Islands,low,individual,0.329,N,3,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0059,22178.5,USD,United Kingdom,United States,low,individual,0.248,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0060,22965.74,USD,Hong Kong,United States,high,individual,0.235,N,2,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,20,N,high-risk customer
+TXN0061,130830.16,HKD,United States,Singapore,medium,corporate,0.069,N,5,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0062,16365.88,USD,United States,Singapore,medium,individual,0.09,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0063,13637.83,USD,Singapore,United States,low,small_business,0.246,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0064,5149.38,USD,United States,Malaysia,medium,individual,0.27,Y,2,N,N,N,N,22,N,USD transaction; US nexus,63,Y,beneficial ownership incomplete; wire transfer information incomplete; new counterparty
+TXN0065,48819.12,HKD,United States,Singapore,medium,small_business,0.99,N,4,Y,Y,N,N,55,Y,high sanctions match score; US nexus,15,N,high sanctions match score
+TXN0066,32864.43,SGD,Malaysia,United States,high,individual,0.258,Y,6,Y,Y,N,N,22,N,US nexus; high-risk customer,30,N,high-risk customer; new counterparty
+TXN0067,18708.12,USD,Hong Kong,Singapore,high,individual,0.259,N,9,Y,Y,N,N,24,N,USD transaction; high-risk customer,32,N,high-risk customer; unusual transaction frequency
+TXN0068,4366.14,HKD,Hong Kong,Singapore,low,individual,0.303,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0069,13775.87,HKD,United Kingdom,United States,low,individual,0.114,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0070,18065.17,SGD,Hong Kong,United States,low,individual,0.152,N,6,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0071,462262.76,USD,United States,Switzerland,high,corporate,0.243,N,5,N,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,58,Y,high-risk customer; beneficial ownership incomplete; large transaction inconsistent with customer risk
+TXN0072,35502.89,USD,Singapore,Indonesia,low,small_business,0.091,Y,6,Y,Y,N,N,12,N,USD transaction,10,N,new counterparty
+TXN0073,73521.36,USD,Singapore,Indonesia,medium,small_business,0.3,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0074,24128.63,SGD,United States,United Kingdom,high,individual,0.39,N,6,N,Y,N,N,22,N,US nexus; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0075,32212.43,USD,Singapore,United Kingdom,low,small_business,0.105,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0076,535255.0,HKD,United States,Malaysia,low,private_banking,0.175,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0077,10693.75,USD,Indonesia,Singapore,low,small_business,0.133,Y,3,N,Y,N,N,12,N,USD transaction,38,N,beneficial ownership incomplete; new counterparty
+TXN0078,67767.3,USD,United States,Hong Kong,low,small_business,0.044,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0079,6009.9,USD,Singapore,Malaysia,medium,individual,0.099,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0080,9500,EUR,Singapore,Hong Kong,low,small_business,0.049,Y,1,Y,Y,Y,N,30,N,structuring-like pattern,10,N,new counterparty
+TXN0081,9900,USD,Malaysia,Indonesia,high,individual,0.402,N,4,Y,N,Y,Y,54,Y,USD transaction; structuring-like pattern; high-risk customer,45,Y,high-risk customer; wire transfer information incomplete
+TXN0082,14160.28,USD,United States,Singapore,low,individual,0.343,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0083,1120.54,USD,Singapore,UAE,medium,individual,0.349,N,8,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,27,N,unusual transaction frequency; high-risk country exposure
+TXN0084,594014.06,GBP,United States,Singapore,low,private_banking,0.053,N,1,N,Y,N,N,10,N,US nexus,28,N,beneficial ownership incomplete
+TXN0085,4407.61,SGD,Singapore,United States,high,small_business,0.339,N,6,Y,Y,N,N,22,N,US nexus; high-risk customer,20,N,high-risk customer
+TXN0086,9804.55,EUR,United States,Hong Kong,medium,individual,0.243,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0087,177888.45,SGD,Hong Kong,Switzerland,high,corporate,0.224,N,6,N,Y,N,N,12,N,high-risk customer,58,Y,high-risk customer; beneficial ownership incomplete; large transaction inconsistent with customer risk
+TXN0088,19800,GBP,Hong Kong,Singapore,medium,individual,0.047,N,2,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0089,12119.48,EUR,United Kingdom,Singapore,low,small_business,0.141,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0090,213150.63,USD,United Kingdom,Indonesia,medium,corporate,0.213,N,2,N,N,N,N,12,N,USD transaction,63,Y,beneficial ownership incomplete; wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0091,369107.12,SGD,Singapore,Indonesia,medium,private_banking,0.041,Y,3,Y,Y,N,N,8,N,large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0092,24563.52,USD,Singapore,Hong Kong,low,individual,0.112,Y,5,Y,Y,N,N,12,N,USD transaction,10,N,new counterparty
+TXN0093,414097.92,USD,Malaysia,United States,high,private_banking,0.336,N,5,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,30,N,high-risk customer; large transaction inconsistent with customer risk
+TXN0094,113501.15,USD,UAE,United Kingdom,high,small_business,0.58,N,3,Y,Y,N,N,57,Y,elevated sanctions match score; USD transaction; high-risk customer; high-risk country exposure,45,Y,high-risk customer; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0095,325531.65,USD,Indonesia,United States,high,corporate,0.7,N,3,Y,N,N,N,59,Y,elevated sanctions match score; USD transaction; US nexus; high-risk customer,55,Y,high-risk customer; wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0096,8038.31,USD,Singapore,Indonesia,medium,individual,0.108,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0097,9900,EUR,Singapore,United Kingdom,high,individual,0.892,Y,3,N,Y,Y,Y,87,Y,high sanctions match score; structuring-like pattern; high-risk customer,73,Y,high-risk customer; beneficial ownership incomplete; new counterparty; high sanctions match score
+TXN0098,6628.62,USD,Singapore,Indonesia,medium,individual,0.502,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0099,379362.22,USD,United States,Indonesia,medium,corporate,0.125,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0100,79196.14,USD,Singapore,United States,medium,corporate,0.329,Y,3,N,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,38,N,beneficial ownership incomplete; new counterparty
+TXN0101,26357.03,EUR,United Kingdom,Singapore,low,small_business,0.784,N,4,Y,Y,N,N,45,Y,high sanctions match score,15,N,high sanctions match score
+TXN0102,52045.38,SGD,Panama,Singapore,medium,small_business,0.435,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0103,388559.05,USD,Malaysia,United Kingdom,low,private_banking,0.153,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0104,64128.38,USD,Singapore,Malaysia,medium,small_business,0.027,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0105,586094.31,EUR,Singapore,Hong Kong,low,private_banking,0.252,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0106,245622.57,SGD,United States,Hong Kong,low,private_banking,0.397,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0107,418800.84,GBP,United Kingdom,UAE,medium,corporate,0.437,N,5,Y,Y,N,N,8,N,high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0108,153910.74,EUR,Singapore,UAE,medium,corporate,0.504,N,4,Y,Y,N,N,8,N,high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0109,5906.05,SGD,Singapore,UAE,medium,individual,0.309,N,2,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0110,19500,SGD,United States,Panama,low,individual,0.393,N,1,Y,Y,Y,N,48,Y,US nexus; structuring-like pattern; high-risk country exposure,15,N,high-risk country exposure
+TXN0111,14313.76,HKD,United Kingdom,Hong Kong,low,small_business,0.185,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0112,23493.67,HKD,United States,British Virgin Islands,low,individual,0.174,N,2,Y,Y,N,Y,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0113,13453.7,EUR,Singapore,United States,low,individual,0.042,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0114,411264.87,HKD,Malaysia,Indonesia,medium,corporate,0.14,Y,4,Y,Y,N,N,8,N,large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0115,71605.83,SGD,Malaysia,Hong Kong,low,small_business,0.186,N,6,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0116,533883.71,SGD,Singapore,United States,high,private_banking,0.181,N,5,Y,Y,N,N,22,N,US nexus; high-risk customer,30,N,high-risk customer; large transaction inconsistent with customer risk
+TXN0117,398741.12,SGD,Singapore,United Kingdom,medium,corporate,0.109,N,6,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0118,19500,USD,United States,United Kingdom,medium,private_banking,0.026,N,1,Y,Y,Y,N,52,Y,USD transaction; US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0119,14135.6,HKD,United States,Singapore,high,small_business,0.211,N,6,Y,Y,N,N,22,N,US nexus; high-risk customer,20,N,high-risk customer
+TXN0120,13433.5,SGD,Singapore,British Virgin Islands,low,individual,0.22,N,3,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0121,213886.01,USD,Singapore,United States,medium,corporate,0.119,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0122,16246.57,USD,Switzerland,Singapore,low,individual,0.024,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0123,17428.78,USD,Singapore,United Kingdom,high,individual,0.31,N,3,Y,Y,N,N,24,N,USD transaction; high-risk customer,20,N,high-risk customer
+TXN0124,7442.9,GBP,Singapore,Panama,medium,individual,0.395,N,1,N,Y,N,N,8,N,high-risk country exposure,43,N,beneficial ownership incomplete; high-risk country exposure
+TXN0125,24545.61,USD,Hong Kong,United States,low,individual,0.04,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0126,19500,SGD,United States,Indonesia,low,private_banking,0.223,N,2,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0127,85379.22,USD,Singapore,United Kingdom,medium,corporate,0.321,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0128,182712.55,USD,Indonesia,Malaysia,medium,corporate,0.291,N,2,Y,Y,N,N,12,N,USD transaction,10,N,large transaction inconsistent with customer risk
+TXN0129,3511.94,HKD,Switzerland,Malaysia,low,individual,0.255,N,6,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0130,9200,SGD,United States,Indonesia,medium,corporate,0.092,Y,3,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,10,N,new counterparty
+TXN0131,1957.13,SGD,Malaysia,Singapore,low,individual,0.326,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0132,341065.31,SGD,Malaysia,United Kingdom,medium,corporate,0.019,N,2,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0133,74622.05,GBP,Singapore,UAE,low,private_banking,0.21,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0134,70524.91,USD,Singapore,United States,low,small_business,0.08,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0135,62468.17,USD,Indonesia,United States,medium,small_business,0.142,Y,5,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0136,49902.07,SGD,Switzerland,United States,low,private_banking,0.163,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0137,5387.73,USD,United States,United Kingdom,medium,individual,0.364,Y,1,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0138,24702.87,USD,Singapore,UAE,medium,individual,0.341,N,2,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0139,107417.91,USD,Malaysia,United States,medium,corporate,0.398,N,2,Y,N,N,N,22,N,USD transaction; US nexus,35,N,wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0140,9097.94,USD,Singapore,United States,low,individual,0.122,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0141,19500,EUR,Indonesia,United Kingdom,medium,corporate,0.134,N,3,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0142,10186.92,USD,United States,Singapore,low,small_business,0.374,N,5,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0143,7765.98,SGD,Singapore,United States,medium,individual,0.099,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0144,63198.75,USD,Singapore,Hong Kong,medium,small_business,0.032,Y,1,Y,Y,N,N,20,N,USD transaction; large transaction with new counterparty,10,N,new counterparty
+TXN0145,114720.55,SGD,United Kingdom,Switzerland,high,corporate,0.34,N,8,Y,Y,N,N,12,N,high-risk customer,42,N,high-risk customer; unusual transaction frequency; large transaction inconsistent with customer risk
+TXN0146,263689.6,SGD,Singapore,Hong Kong,low,corporate,0.044,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0147,207410.7,USD,Singapore,United States,medium,corporate,0.076,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0148,4563.95,SGD,United States,Singapore,medium,individual,0.014,N,3,Y,N,N,N,10,N,US nexus,25,N,wire transfer information incomplete
+TXN0149,109776.43,GBP,United States,Malaysia,medium,corporate,0.634,N,6,Y,N,N,N,35,N,elevated sanctions match score; US nexus,35,N,wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0150,45896.01,USD,United States,Indonesia,low,small_business,0.109,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0151,3295.9,USD,Malaysia,United States,low,individual,0.008,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0152,5421.71,HKD,Singapore,Malaysia,medium,individual,0.298,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0153,9200,SGD,Singapore,UAE,high,private_banking,0.343,N,5,Y,Y,Y,Y,50,Y,structuring-like pattern; high-risk customer; high-risk country exposure,35,N,high-risk customer; high-risk country exposure
+TXN0154,10336.37,USD,United States,Hong Kong,medium,individual,0.062,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0155,9200,USD,Hong Kong,Singapore,medium,small_business,0.131,N,2,Y,Y,Y,N,42,N,USD transaction; structuring-like pattern,0,N,no major Singapore trigger
+TXN0156,56321.96,SGD,United States,United Kingdom,low,small_business,0.116,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0157,9900,GBP,United Kingdom,Singapore,low,small_business,0.065,N,1,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0158,9500,HKD,United States,Switzerland,low,small_business,0.459,N,2,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0159,197194.04,GBP,United States,Singapore,low,corporate,0.115,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0160,13009.1,USD,Malaysia,Hong Kong,low,individual,0.073,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0161,32495.29,EUR,UAE,Singapore,high,individual,0.587,Y,3,Y,Y,N,N,45,Y,elevated sanctions match score; high-risk customer; high-risk country exposure,45,Y,high-risk customer; new counterparty; high-risk country exposure
+TXN0162,559438.76,USD,Hong Kong,United States,low,private_banking,0.276,Y,1,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0163,19500,SGD,United States,Switzerland,medium,small_business,0.246,N,1,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0164,71388.94,USD,United States,UAE,high,small_business,0.434,N,4,Y,Y,N,N,42,N,USD transaction; US nexus; high-risk customer; high-risk country exposure,35,N,high-risk customer; high-risk country exposure
+TXN0165,64963.54,GBP,United States,Switzerland,medium,corporate,0.13,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0166,34951.97,USD,United States,Singapore,high,individual,0.314,N,5,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,20,N,high-risk customer
+TXN0167,11431.73,GBP,United States,United Kingdom,medium,individual,0.196,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0168,240271.63,USD,Indonesia,Hong Kong,low,private_banking,0.129,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0169,448159.23,SGD,United States,Panama,high,corporate,0.528,Y,6,Y,N,N,Y,38,N,US nexus; high-risk customer; high-risk country exposure; large transaction with new counterparty,80,Y,high-risk customer; wire transfer information incomplete; new counterparty; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0170,44055.54,USD,United States,Singapore,low,small_business,0.095,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0171,13546.84,USD,Singapore,Malaysia,medium,individual,0.175,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0172,58122.7,EUR,Singapore,United Kingdom,low,small_business,0.248,N,1,Y,Y,N,Y,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0173,60598.55,EUR,Singapore,Malaysia,low,small_business,0.109,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0174,89061.01,SGD,Singapore,United States,low,small_business,0.468,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0175,24779.07,SGD,Malaysia,Singapore,high,individual,0.52,N,5,Y,Y,N,N,12,N,high-risk customer,20,N,high-risk customer
+TXN0176,19024.65,SGD,Singapore,United States,medium,individual,0.595,N,1,Y,Y,N,N,35,N,elevated sanctions match score; US nexus,0,N,no major Singapore trigger
+TXN0177,36134.91,USD,United States,Hong Kong,medium,small_business,0.149,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0178,11296.72,USD,United States,Singapore,low,individual,0.073,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0179,197866.13,USD,Panama,Singapore,medium,private_banking,0.261,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0180,20452.66,USD,Hong Kong,United States,low,individual,0.056,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0181,354701.5,SGD,United States,Indonesia,medium,private_banking,0.365,N,1,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0182,15193.36,SGD,Singapore,United States,medium,individual,0.048,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0183,174462.29,USD,United States,Singapore,low,corporate,0.083,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0184,18811.23,USD,United Kingdom,Malaysia,low,individual,0.145,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0185,440100.03,EUR,Singapore,Switzerland,low,corporate,0.055,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0186,219420.51,EUR,United States,UAE,low,private_banking,0.395,N,4,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0187,20835.5,SGD,Malaysia,UAE,low,private_banking,0.34,N,2,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0188,1741.48,SGD,Singapore,UAE,low,individual,0.258,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0189,27277.8,SGD,Singapore,Hong Kong,high,individual,0.264,N,2,N,Y,N,N,12,N,high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0190,88361.93,SGD,United States,Indonesia,medium,private_banking,0.068,Y,1,N,Y,N,N,18,N,US nexus; large transaction with new counterparty,38,N,beneficial ownership incomplete; new counterparty
+TXN0191,440423.73,HKD,Singapore,United States,medium,corporate,0.125,N,2,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0192,61573.57,SGD,Singapore,United States,medium,small_business,0.226,N,7,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0193,158383.49,EUR,Panama,United States,low,corporate,0.494,N,4,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0194,544313.17,GBP,United States,United Kingdom,medium,private_banking,0.447,N,5,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0195,112850.86,GBP,Panama,Singapore,medium,corporate,0.487,N,5,Y,Y,N,N,8,N,high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0196,7092.06,SGD,Singapore,Panama,low,individual,0.526,N,3,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0197,6703.55,SGD,Singapore,Hong Kong,low,individual,0.109,N,6,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0198,80351.66,EUR,United States,Singapore,low,small_business,0.092,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0199,21923.96,USD,UAE,Malaysia,medium,individual,0.306,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0200,20030.96,USD,Singapore,Switzerland,medium,small_business,0.126,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0201,514020.43,USD,Singapore,British Virgin Islands,low,private_banking,0.233,N,5,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0202,22158.08,USD,Singapore,Hong Kong,medium,individual,0.117,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0203,299572.5,USD,Singapore,United States,high,corporate,0.36,N,10,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,42,N,high-risk customer; unusual transaction frequency; large transaction inconsistent with customer risk
+TXN0204,24494.98,USD,Indonesia,United States,low,individual,0.071,N,5,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0205,384403.78,HKD,UAE,Singapore,low,corporate,0.26,Y,3,Y,Y,N,N,16,N,high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0206,18235.91,SGD,Panama,United States,medium,individual,0.99,Y,1,Y,Y,N,Y,63,Y,high sanctions match score; US nexus; high-risk country exposure,40,N,new counterparty; high-risk country exposure; high sanctions match score
+TXN0207,429932.98,HKD,Hong Kong,United Kingdom,medium,corporate,0.306,N,2,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0208,235269.38,SGD,Hong Kong,Singapore,medium,private_banking,0.15,N,3,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0209,37414.04,USD,United States,Panama,high,small_business,0.544,N,5,Y,Y,N,Y,42,N,USD transaction; US nexus; high-risk customer; high-risk country exposure,35,N,high-risk customer; high-risk country exposure
+TXN0210,410149.03,EUR,Panama,Singapore,medium,corporate,0.26,N,1,Y,Y,N,N,8,N,high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0211,38942.87,SGD,United States,British Virgin Islands,high,small_business,0.576,N,8,N,Y,N,Y,55,Y,elevated sanctions match score; US nexus; high-risk customer; high-risk country exposure,75,Y,high-risk customer; beneficial ownership incomplete; unusual transaction frequency; high-risk country exposure
+TXN0212,585922.41,SGD,Singapore,United States,low,private_banking,0.238,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0213,92578.64,USD,Malaysia,Indonesia,low,corporate,0.163,Y,1,Y,Y,N,N,20,N,USD transaction; large transaction with new counterparty,10,N,new counterparty
+TXN0214,34420.39,SGD,United States,Hong Kong,low,corporate,0.099,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0215,34909.0,HKD,Singapore,United States,high,individual,0.538,Y,4,N,N,N,Y,22,N,US nexus; high-risk customer,83,Y,high-risk customer; beneficial ownership incomplete; wire transfer information incomplete; new counterparty
+TXN0216,88649.86,USD,United States,UAE,low,small_business,0.441,N,2,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0217,9500,SGD,United States,Malaysia,low,small_business,0.098,N,7,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0218,155412.65,SGD,Hong Kong,United States,low,corporate,0.377,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0219,169312.35,GBP,Hong Kong,Singapore,high,corporate,0.29,N,13,Y,N,N,N,12,N,high-risk customer,67,Y,high-risk customer; wire transfer information incomplete; unusual transaction frequency; large transaction inconsistent with customer risk
+TXN0220,22124.87,USD,UAE,Singapore,medium,small_business,0.768,N,1,Y,Y,N,N,65,Y,high sanctions match score; USD transaction; high-risk country exposure,30,N,high-risk country exposure; high sanctions match score
+TXN0221,20972.44,SGD,Malaysia,Indonesia,medium,individual,0.663,N,3,Y,Y,N,N,25,N,elevated sanctions match score,0,N,no major Singapore trigger
+TXN0222,346077.24,SGD,United States,United Kingdom,low,corporate,0.243,N,3,N,Y,N,N,10,N,US nexus,28,N,beneficial ownership incomplete
+TXN0223,124779.16,EUR,Singapore,United States,low,corporate,0.095,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0224,13641.67,GBP,Singapore,Malaysia,high,small_business,0.38,Y,1,N,Y,N,Y,12,N,high-risk customer,58,Y,high-risk customer; beneficial ownership incomplete; new counterparty
+TXN0225,17060.19,EUR,United States,Singapore,low,small_business,0.181,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0226,287790.77,USD,United States,Singapore,high,corporate,0.184,N,3,N,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,58,Y,high-risk customer; beneficial ownership incomplete; large transaction inconsistent with customer risk
+TXN0227,55659.56,USD,United States,Singapore,medium,small_business,0.095,N,1,N,Y,N,N,22,N,USD transaction; US nexus,28,N,beneficial ownership incomplete
+TXN0228,342482.26,GBP,United States,Hong Kong,low,corporate,0.209,N,5,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0229,12940.43,USD,Switzerland,United Kingdom,medium,individual,0.701,N,3,Y,Y,N,N,37,N,elevated sanctions match score; USD transaction,0,N,no major Singapore trigger
+TXN0230,15572.8,EUR,British Virgin Islands,United Kingdom,low,individual,0.509,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0231,40450.44,SGD,United States,Malaysia,low,small_business,0.197,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0232,7122.86,GBP,United States,Singapore,high,individual,0.242,Y,9,Y,Y,N,N,22,N,US nexus; high-risk customer,42,N,high-risk customer; new counterparty; unusual transaction frequency
+TXN0233,43477.68,USD,United States,Hong Kong,low,small_business,0.251,Y,1,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0234,541625.01,USD,Malaysia,Singapore,low,private_banking,0.465,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0235,16555.06,HKD,United Kingdom,Singapore,medium,individual,0.151,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0236,142168.89,SGD,Singapore,United States,medium,private_banking,0.054,N,4,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0237,43305.16,EUR,United Kingdom,Malaysia,medium,small_business,0.172,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0238,512015.97,USD,United States,United Kingdom,low,private_banking,0.092,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0239,22950.58,USD,United States,Switzerland,low,individual,0.311,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0240,74448.89,USD,Singapore,UAE,low,small_business,0.177,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0241,19250.84,SGD,United States,Malaysia,medium,small_business,0.483,Y,5,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0242,74154.59,USD,Switzerland,UAE,medium,small_business,0.456,Y,1,Y,Y,N,N,28,N,USD transaction; high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0243,177627.05,USD,United States,Singapore,medium,corporate,0.208,Y,2,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0244,5045.01,USD,Singapore,Hong Kong,low,individual,0.139,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0245,568931.07,USD,Hong Kong,Singapore,low,private_banking,0.039,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0246,25766.32,USD,Singapore,Malaysia,high,individual,0.303,Y,5,Y,Y,N,N,24,N,USD transaction; high-risk customer,30,N,high-risk customer; new counterparty
+TXN0247,22465.18,USD,United States,Switzerland,medium,small_business,0.462,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0248,13407.26,USD,United States,Singapore,high,small_business,0.332,Y,10,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,42,N,high-risk customer; new counterparty; unusual transaction frequency
+TXN0249,34629.29,SGD,Singapore,Switzerland,medium,small_business,0.154,Y,1,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0250,5354.95,SGD,United Kingdom,United States,medium,individual,0.081,N,6,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0251,23736.3,USD,United States,Panama,medium,individual,0.184,Y,1,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0252,88023.42,SGD,Singapore,Switzerland,medium,small_business,0.16,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0253,9500,GBP,United States,Hong Kong,high,small_business,0.327,N,6,N,Y,Y,Y,52,Y,US nexus; structuring-like pattern; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0254,12836.09,HKD,United States,Singapore,low,individual,0.394,N,7,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0255,3231.1,EUR,Singapore,Switzerland,low,small_business,0.148,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0256,329970.89,USD,United States,United Kingdom,low,corporate,0.378,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0257,11711.18,USD,Indonesia,United States,medium,individual,0.35,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0258,5487.46,USD,Hong Kong,Malaysia,medium,individual,0.113,N,1,N,Y,N,N,12,N,USD transaction,28,N,beneficial ownership incomplete
+TXN0259,9923.07,USD,United States,Malaysia,medium,small_business,0.099,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0260,19247.28,SGD,United States,Singapore,low,small_business,0.111,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0261,280225.92,SGD,Panama,Malaysia,high,private_banking,0.913,N,4,N,Y,N,Y,65,Y,high sanctions match score; high-risk customer; high-risk country exposure,88,Y,high-risk customer; beneficial ownership incomplete; high-risk country exposure; large transaction inconsistent with customer risk; high sanctions match score
+TXN0262,15969.13,SGD,United States,United Kingdom,medium,individual,0.033,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0263,16760.84,GBP,United States,UAE,low,individual,0.371,N,2,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0264,187322.03,EUR,United Kingdom,United States,medium,corporate,0.097,N,1,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0265,182020.82,SGD,United States,United Kingdom,high,corporate,0.167,Y,2,Y,Y,N,N,30,N,US nexus; high-risk customer; large transaction with new counterparty,40,N,high-risk customer; new counterparty; large transaction inconsistent with customer risk
+TXN0266,12219.58,USD,Malaysia,Singapore,high,individual,0.73,N,4,Y,Y,N,N,49,Y,elevated sanctions match score; USD transaction; high-risk customer,20,N,high-risk customer
+TXN0267,282215.28,USD,Hong Kong,Panama,low,corporate,0.34,N,5,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0268,350.08,SGD,United States,Singapore,medium,individual,0.014,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0269,288848.62,USD,Singapore,Indonesia,low,corporate,0.029,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0270,20654.16,EUR,Malaysia,Hong Kong,medium,small_business,0.087,Y,3,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0271,1743.43,USD,Indonesia,UAE,low,individual,0.347,N,6,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0272,32343.22,USD,UAE,United States,medium,small_business,0.933,Y,1,Y,Y,N,Y,75,Y,high sanctions match score; USD transaction; US nexus; high-risk country exposure,40,N,new counterparty; high-risk country exposure; high sanctions match score
+TXN0273,11918.03,SGD,Malaysia,Singapore,low,individual,0.122,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0274,8074.4,USD,Malaysia,Singapore,medium,individual,0.037,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0275,23668.26,SGD,Indonesia,United States,low,individual,0.202,N,6,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0276,391564.71,USD,United States,Indonesia,medium,corporate,0.284,Y,1,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0277,89598.03,USD,Singapore,Switzerland,low,corporate,0.084,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0278,19800,GBP,United Kingdom,UAE,high,small_business,0.421,Y,3,Y,Y,Y,Y,50,Y,structuring-like pattern; high-risk customer; high-risk country exposure,45,Y,high-risk customer; new counterparty; high-risk country exposure
+TXN0279,73246.0,GBP,Malaysia,Hong Kong,low,corporate,0.278,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0280,417061.52,USD,UAE,Indonesia,medium,private_banking,0.396,Y,4,Y,Y,N,N,28,N,USD transaction; high-risk country exposure; large transaction with new counterparty,35,N,new counterparty; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0281,16341.05,SGD,Singapore,Indonesia,low,small_business,0.123,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0282,293953.7,EUR,Hong Kong,United States,medium,corporate,0.024,N,1,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0283,377040.04,USD,Singapore,United States,low,corporate,0.133,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0284,74049.41,USD,United States,Hong Kong,low,small_business,0.372,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0285,438666.08,SGD,United States,Malaysia,medium,corporate,0.186,Y,1,Y,Y,N,N,18,N,US nexus; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0286,21834.86,USD,United States,Hong Kong,low,individual,0.196,Y,3,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0287,17735.84,HKD,United States,Singapore,high,individual,0.131,N,7,Y,Y,N,N,22,N,US nexus; high-risk customer,20,N,high-risk customer
+TXN0288,105949.15,SGD,Malaysia,Singapore,high,small_business,0.177,Y,4,N,Y,N,N,20,N,high-risk customer; large transaction with new counterparty,68,Y,high-risk customer; beneficial ownership incomplete; new counterparty; large transaction inconsistent with customer risk
+TXN0289,74604.94,EUR,Switzerland,Singapore,medium,small_business,0.19,N,3,N,Y,N,N,0,N,no major US trigger,28,N,beneficial ownership incomplete
+TXN0290,9054.76,GBP,Singapore,United States,medium,individual,0.215,N,3,N,Y,N,N,10,N,US nexus,28,N,beneficial ownership incomplete
+TXN0291,11744.34,SGD,United States,Hong Kong,low,individual,0.21,Y,2,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0292,99802.2,SGD,Indonesia,Panama,low,corporate,0.564,N,1,Y,Y,N,N,33,N,elevated sanctions match score; high-risk country exposure,15,N,high-risk country exposure
+TXN0293,299184.67,GBP,Singapore,Switzerland,medium,corporate,0.104,Y,2,Y,Y,N,N,8,N,large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0294,268218.18,USD,Malaysia,Switzerland,low,private_banking,0.117,N,1,Y,N,N,N,12,N,USD transaction,25,N,wire transfer information incomplete
+TXN0295,1280.23,EUR,United Kingdom,Indonesia,high,individual,0.305,N,6,N,Y,N,N,12,N,high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0296,425557.8,USD,Singapore,Hong Kong,low,corporate,0.083,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0297,9500,USD,United Kingdom,United States,medium,private_banking,0.087,N,1,Y,Y,Y,N,52,Y,USD transaction; US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0298,216272.51,EUR,Malaysia,United States,low,private_banking,0.176,N,5,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0299,18248.5,SGD,United States,Singapore,high,individual,0.184,Y,5,N,N,N,Y,22,N,US nexus; high-risk customer,83,Y,high-risk customer; beneficial ownership incomplete; wire transfer information incomplete; new counterparty
+TXN0300,505500.63,SGD,United States,UAE,high,corporate,0.609,N,10,Y,Y,N,N,55,Y,elevated sanctions match score; US nexus; high-risk customer; high-risk country exposure,57,Y,high-risk customer; unusual transaction frequency; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0301,81533.71,USD,United Kingdom,Hong Kong,medium,small_business,0.012,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0302,128483.46,USD,Singapore,United Kingdom,low,corporate,0.12,N,6,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0303,15670.49,HKD,Singapore,Hong Kong,high,individual,0.321,N,6,Y,Y,N,N,12,N,high-risk customer,20,N,high-risk customer
+TXN0304,9900,HKD,Singapore,United Kingdom,low,private_banking,0.198,N,2,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0305,375.04,USD,Hong Kong,United States,low,individual,0.137,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0306,4129.08,SGD,British Virgin Islands,United States,low,small_business,0.298,N,2,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0307,4181.35,USD,Malaysia,Indonesia,low,individual,0.032,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0308,97446.11,USD,Singapore,United States,medium,corporate,0.061,N,3,N,Y,N,N,22,N,USD transaction; US nexus,28,N,beneficial ownership incomplete
+TXN0309,3221.72,USD,United States,Switzerland,medium,individual,0.023,N,1,N,Y,N,N,22,N,USD transaction; US nexus,28,N,beneficial ownership incomplete
+TXN0310,337981.25,SGD,Singapore,Indonesia,low,corporate,0.199,N,7,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0311,20735.62,SGD,Singapore,United States,medium,individual,0.045,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0312,12920.1,EUR,United Kingdom,United States,high,individual,0.218,Y,6,N,Y,N,N,22,N,US nexus; high-risk customer,58,Y,high-risk customer; beneficial ownership incomplete; new counterparty
+TXN0313,57812.45,SGD,Singapore,United States,low,small_business,0.253,Y,5,Y,Y,N,N,18,N,US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0314,9500,USD,United Kingdom,Singapore,medium,small_business,0.231,N,6,Y,Y,Y,N,42,N,USD transaction; structuring-like pattern,0,N,no major Singapore trigger
+TXN0315,16454.66,SGD,United States,Malaysia,low,individual,0.337,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0316,29832.05,EUR,Indonesia,United States,low,small_business,0.188,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0317,3400.48,USD,Switzerland,United States,low,individual,0.059,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0318,471121.07,USD,Indonesia,United States,low,private_banking,0.04,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0319,22348.94,EUR,Hong Kong,Singapore,low,small_business,0.02,Y,2,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0320,24425.03,SGD,United States,Singapore,low,individual,0.119,Y,3,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0321,30381.3,GBP,Hong Kong,Singapore,low,small_business,0.161,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0322,300265.02,USD,United States,Singapore,medium,corporate,0.143,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0323,2542.06,USD,Panama,Singapore,low,individual,0.345,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0324,636087.05,USD,United States,Singapore,medium,private_banking,0.164,Y,3,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0325,12522.41,GBP,Indonesia,Singapore,high,individual,0.279,N,4,Y,Y,N,N,12,N,high-risk customer,20,N,high-risk customer
+TXN0326,9800,GBP,Indonesia,Singapore,low,individual,0.357,N,6,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0327,69755.76,HKD,Switzerland,UAE,low,small_business,0.648,N,3,Y,Y,N,N,33,N,elevated sanctions match score; high-risk country exposure,15,N,high-risk country exposure
+TXN0328,63268.76,EUR,Hong Kong,Panama,low,small_business,0.311,N,6,N,Y,N,N,8,N,high-risk country exposure,43,N,beneficial ownership incomplete; high-risk country exposure
+TXN0329,264899.36,GBP,Singapore,United States,medium,corporate,0.044,Y,4,Y,Y,N,N,18,N,US nexus; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0330,215057.0,GBP,United States,Hong Kong,medium,corporate,0.076,N,1,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0331,639817.23,SGD,Singapore,United States,high,corporate,0.351,N,9,Y,N,N,N,22,N,US nexus; high-risk customer,67,Y,high-risk customer; wire transfer information incomplete; unusual transaction frequency; large transaction inconsistent with customer risk
+TXN0332,4005.97,SGD,Singapore,Malaysia,high,individual,0.212,Y,4,Y,Y,N,N,12,N,high-risk customer,30,N,high-risk customer; new counterparty
+TXN0333,231725.55,SGD,Switzerland,Hong Kong,low,corporate,0.169,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0334,55097.65,GBP,British Virgin Islands,Singapore,medium,small_business,0.229,Y,4,Y,Y,N,N,16,N,high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0335,59859.02,SGD,United States,Switzerland,low,small_business,0.229,N,1,Y,N,N,N,10,N,US nexus,25,N,wire transfer information incomplete
+TXN0336,183325.58,SGD,Indonesia,Singapore,medium,corporate,0.148,N,4,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0337,13439.14,GBP,Switzerland,Hong Kong,low,individual,0.365,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0338,227200.04,EUR,United States,British Virgin Islands,low,private_banking,0.391,N,5,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0339,111650.65,USD,United States,Hong Kong,medium,private_banking,0.065,N,1,Y,Y,N,Y,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0340,3875.15,USD,United States,Singapore,low,individual,0.145,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0341,74684.32,USD,United States,Singapore,low,small_business,0.132,N,7,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0342,64013.31,HKD,Singapore,United States,medium,small_business,0.173,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0343,16844.22,HKD,Malaysia,Singapore,medium,individual,0.195,N,1,Y,N,N,N,0,N,no major US trigger,25,N,wire transfer information incomplete
+TXN0344,61460.33,USD,Indonesia,United States,low,corporate,0.042,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0345,39077.28,GBP,United Kingdom,Singapore,medium,small_business,0.09,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0346,24830.03,USD,UAE,United Kingdom,low,individual,0.619,Y,1,Y,Y,N,N,45,Y,elevated sanctions match score; USD transaction; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0347,22573.75,EUR,Singapore,United States,medium,individual,0.049,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0348,4474.47,SGD,United Kingdom,Singapore,low,individual,0.108,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0349,326631.65,EUR,Singapore,Panama,high,corporate,0.438,Y,4,Y,Y,N,N,28,N,high-risk customer; high-risk country exposure; large transaction with new counterparty,55,Y,high-risk customer; new counterparty; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0350,163713.51,USD,Singapore,UAE,medium,corporate,0.45,N,4,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0351,454061.44,SGD,United States,Singapore,low,private_banking,0.112,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0352,66903.56,USD,United Kingdom,Hong Kong,medium,corporate,0.102,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0353,115794.7,USD,UAE,Singapore,high,corporate,0.383,N,6,Y,Y,N,N,32,N,USD transaction; high-risk customer; high-risk country exposure,45,Y,high-risk customer; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0354,422109.68,USD,Singapore,Hong Kong,medium,private_banking,0.066,N,4,N,Y,N,N,12,N,USD transaction,38,N,beneficial ownership incomplete; large transaction inconsistent with customer risk
+TXN0355,9800,GBP,Singapore,Indonesia,high,small_business,0.412,N,4,N,Y,Y,Y,42,N,structuring-like pattern; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0356,14056.25,GBP,United Kingdom,British Virgin Islands,medium,individual,0.43,N,2,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0357,418866.81,SGD,Singapore,UAE,high,corporate,0.466,N,3,Y,Y,N,N,20,N,high-risk customer; high-risk country exposure,45,Y,high-risk customer; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0358,10966.69,SGD,United States,Singapore,medium,individual,0.122,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0359,6673.1,SGD,British Virgin Islands,Indonesia,low,individual,0.3,N,6,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0360,991.31,USD,United Kingdom,Malaysia,medium,individual,0.062,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0361,5833.85,HKD,Singapore,Switzerland,medium,individual,0.403,N,2,Y,Y,N,Y,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0362,183638.68,SGD,United States,Indonesia,low,corporate,0.109,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0363,32151.07,EUR,United Kingdom,Singapore,high,individual,0.339,N,8,Y,Y,N,N,12,N,high-risk customer,32,N,high-risk customer; unusual transaction frequency
+TXN0364,7748.82,USD,Malaysia,United States,low,individual,0.109,N,2,N,Y,N,N,22,N,USD transaction; US nexus,28,N,beneficial ownership incomplete
+TXN0365,27516.13,HKD,Singapore,United Kingdom,low,private_banking,0.106,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0366,85747.04,EUR,United Kingdom,Singapore,low,corporate,0.055,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0367,561811.76,HKD,Singapore,United Kingdom,high,corporate,0.309,Y,1,N,N,N,Y,20,N,high-risk customer; large transaction with new counterparty,93,Y,high-risk customer; beneficial ownership incomplete; wire transfer information incomplete; new counterparty; large transaction inconsistent with customer risk
+TXN0368,355904.51,USD,Singapore,United States,low,corporate,0.164,N,6,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0369,15916.59,SGD,Switzerland,British Virgin Islands,low,individual,0.22,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0370,322119.01,USD,Malaysia,Singapore,low,private_banking,0.032,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0371,8724.57,EUR,United States,Singapore,high,small_business,0.346,N,5,N,Y,N,N,22,N,US nexus; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0372,692.9,USD,Hong Kong,United Kingdom,high,individual,0.66,N,4,Y,Y,N,N,49,Y,elevated sanctions match score; USD transaction; high-risk customer,20,N,high-risk customer
+TXN0373,13176.66,SGD,United States,Singapore,medium,individual,0.021,Y,6,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0374,30243.85,EUR,United States,Indonesia,low,small_business,0.442,N,6,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0375,4732.68,EUR,United Kingdom,Singapore,medium,individual,0.104,N,1,N,Y,N,N,0,N,no major US trigger,28,N,beneficial ownership incomplete
+TXN0376,12442.75,SGD,United Kingdom,Switzerland,low,small_business,0.068,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0377,19936.25,USD,Singapore,United States,low,individual,0.084,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0378,76111.57,USD,United Kingdom,UAE,medium,small_business,0.482,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0379,9500,USD,British Virgin Islands,Singapore,low,small_business,0.484,N,3,Y,Y,Y,N,50,Y,USD transaction; structuring-like pattern; high-risk country exposure,15,N,high-risk country exposure
+TXN0380,75316.48,GBP,UAE,Malaysia,medium,small_business,0.184,Y,1,Y,Y,N,N,16,N,high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0381,76370.34,SGD,Panama,United States,medium,small_business,0.421,N,3,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0382,61785.69,GBP,Singapore,United States,medium,corporate,0.203,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0383,11599.01,SGD,Hong Kong,United States,low,individual,0.135,Y,6,Y,N,N,N,10,N,US nexus,35,N,wire transfer information incomplete; new counterparty
+TXN0384,186510.59,GBP,Singapore,Indonesia,medium,corporate,0.37,N,5,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0385,18104.04,SGD,Singapore,Switzerland,low,individual,0.034,Y,5,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0386,1149.04,GBP,United States,United Kingdom,low,individual,0.254,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0387,8177.67,USD,United Kingdom,United States,medium,individual,0.076,N,4,Y,N,N,N,22,N,USD transaction; US nexus,25,N,wire transfer information incomplete
+TXN0388,118087.98,EUR,Singapore,United States,high,corporate,0.218,Y,7,N,Y,N,N,30,N,US nexus; high-risk customer; large transaction with new counterparty,68,Y,high-risk customer; beneficial ownership incomplete; new counterparty; large transaction inconsistent with customer risk
+TXN0389,179343.52,USD,Hong Kong,United States,medium,corporate,0.11,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0390,310013.5,EUR,United States,British Virgin Islands,low,corporate,0.413,Y,5,Y,Y,N,N,26,N,US nexus; high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0391,1834.42,SGD,United States,United Kingdom,low,individual,0.053,N,5,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0392,799096.44,EUR,Switzerland,United States,high,private_banking,0.173,N,2,Y,Y,N,N,22,N,US nexus; high-risk customer,30,N,high-risk customer; large transaction inconsistent with customer risk
+TXN0393,42323.72,SGD,United States,Singapore,medium,small_business,0.075,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0394,75071.58,SGD,Malaysia,Singapore,low,small_business,0.32,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0395,21988.9,EUR,Singapore,United States,high,individual,0.276,Y,8,Y,Y,N,N,22,N,US nexus; high-risk customer,42,N,high-risk customer; new counterparty; unusual transaction frequency
+TXN0396,19760.71,USD,United Kingdom,Switzerland,high,individual,0.282,Y,5,Y,Y,N,N,24,N,USD transaction; high-risk customer,30,N,high-risk customer; new counterparty
+TXN0397,23791.19,USD,Singapore,Hong Kong,low,individual,0.187,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0398,3794.26,USD,United States,Singapore,low,individual,0.231,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0399,59924.75,SGD,United States,United Kingdom,low,small_business,0.054,Y,1,Y,Y,N,N,18,N,US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0400,301811.2,GBP,Hong Kong,Indonesia,low,private_banking,0.044,N,6,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0401,33549.15,SGD,Malaysia,Hong Kong,low,small_business,0.299,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0402,104672.44,EUR,United Kingdom,Switzerland,medium,corporate,0.181,Y,1,Y,Y,N,N,8,N,large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0403,19500,USD,British Virgin Islands,Indonesia,low,individual,0.364,N,3,Y,Y,Y,N,50,Y,USD transaction; structuring-like pattern; high-risk country exposure,15,N,high-risk country exposure
+TXN0404,8659.63,EUR,Hong Kong,Singapore,low,individual,0.043,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0405,18591.37,USD,Hong Kong,United States,low,individual,0.098,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0406,9800,SGD,Malaysia,United States,low,small_business,0.167,N,8,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,12,N,unusual transaction frequency
+TXN0407,126797.83,USD,Singapore,Hong Kong,low,private_banking,0.569,N,2,Y,Y,N,N,37,N,elevated sanctions match score; USD transaction,0,N,no major Singapore trigger
+TXN0408,18834.85,SGD,United States,Malaysia,low,individual,0.313,Y,1,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0409,6629.45,USD,Singapore,Malaysia,low,small_business,0.23,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0410,9295.88,USD,UAE,United States,low,individual,0.197,N,3,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0411,66255.56,USD,Indonesia,Switzerland,low,small_business,0.155,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0412,404861.77,GBP,Indonesia,Singapore,low,private_banking,0.113,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0413,9960.89,USD,Hong Kong,United States,medium,individual,0.151,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0414,87419.81,USD,Singapore,Malaysia,low,small_business,0.104,N,6,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0415,285123.62,SGD,British Virgin Islands,Singapore,low,private_banking,0.537,Y,6,Y,Y,N,N,16,N,high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0416,1053.7,USD,Hong Kong,Singapore,low,small_business,0.045,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0417,58625.34,USD,United States,UAE,medium,private_banking,0.532,N,3,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0418,10315.5,USD,United States,Switzerland,low,individual,0.142,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0419,25569.89,SGD,United States,Switzerland,high,individual,0.296,N,6,N,N,N,N,22,N,US nexus; high-risk customer,73,Y,high-risk customer; beneficial ownership incomplete; wire transfer information incomplete
+TXN0420,338962.43,GBP,Singapore,United States,low,corporate,0.303,Y,1,Y,Y,N,N,18,N,US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0421,5875.42,EUR,Malaysia,Hong Kong,low,individual,0.351,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0422,9200,USD,Hong Kong,Singapore,low,small_business,0.184,N,1,Y,Y,Y,N,42,N,USD transaction; structuring-like pattern,0,N,no major Singapore trigger
+TXN0423,9864.12,USD,Switzerland,Singapore,low,individual,0.002,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0424,627928.32,USD,Singapore,United States,medium,private_banking,0.254,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0425,9200,EUR,Indonesia,Malaysia,medium,private_banking,0.071,N,3,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0426,24731.54,SGD,United States,Switzerland,low,small_business,0.097,N,7,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0427,72872.78,EUR,Singapore,British Virgin Islands,medium,small_business,0.308,Y,3,Y,N,N,N,16,N,high-risk country exposure; large transaction with new counterparty,50,Y,wire transfer information incomplete; new counterparty; high-risk country exposure
+TXN0428,18641.98,SGD,Singapore,Panama,low,individual,0.273,N,4,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0429,11242.12,SGD,Indonesia,United States,medium,individual,0.02,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0430,645799.72,EUR,United States,Malaysia,medium,private_banking,0.182,N,4,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0431,23335.83,EUR,British Virgin Islands,Hong Kong,high,individual,0.378,Y,5,Y,Y,N,N,20,N,high-risk customer; high-risk country exposure,45,Y,high-risk customer; new counterparty; high-risk country exposure
+TXN0432,35456.06,EUR,United States,Singapore,medium,small_business,0.109,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0433,9250.87,SGD,Singapore,Indonesia,medium,individual,0.065,Y,1,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0434,8647.47,GBP,Switzerland,UAE,low,individual,0.427,Y,6,Y,Y,N,N,8,N,high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0435,1289.72,SGD,Singapore,Hong Kong,low,individual,0.219,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0436,474499.48,USD,UAE,Singapore,low,private_banking,0.605,N,1,Y,N,N,N,45,Y,elevated sanctions match score; USD transaction; high-risk country exposure,40,N,wire transfer information incomplete; high-risk country exposure
+TXN0437,16714.21,USD,United States,Indonesia,low,individual,0.035,N,6,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0438,246743.62,USD,United Kingdom,Hong Kong,low,corporate,0.667,N,1,Y,Y,N,N,37,N,elevated sanctions match score; USD transaction,0,N,no major Singapore trigger
+TXN0439,24373.6,EUR,Switzerland,Hong Kong,medium,small_business,0.129,N,3,N,Y,N,N,0,N,no major US trigger,28,N,beneficial ownership incomplete
+TXN0440,8099.82,SGD,United States,UAE,low,individual,0.485,N,2,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0441,77431.51,EUR,Hong Kong,Singapore,low,small_business,0.444,Y,1,Y,Y,N,N,8,N,large transaction with new counterparty,10,N,new counterparty
+TXN0442,9600.72,USD,Singapore,Malaysia,low,individual,0.171,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0443,3465.43,SGD,United States,Malaysia,medium,individual,0.158,N,3,N,Y,N,N,10,N,US nexus,28,N,beneficial ownership incomplete
+TXN0444,316898.52,EUR,United Kingdom,United States,high,corporate,0.184,Y,3,Y,Y,N,N,30,N,US nexus; high-risk customer; large transaction with new counterparty,40,N,high-risk customer; new counterparty; large transaction inconsistent with customer risk
+TXN0445,145584.5,EUR,United Kingdom,Switzerland,low,corporate,0.549,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0446,293704.67,SGD,Singapore,United States,medium,corporate,0.78,N,1,Y,Y,N,N,55,Y,high sanctions match score; US nexus,25,N,large transaction inconsistent with customer risk; high sanctions match score
+TXN0447,89524.51,SGD,Malaysia,United States,medium,small_business,0.095,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0448,554186.17,USD,UAE,Panama,low,private_banking,0.434,N,2,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0449,24766.39,SGD,United Kingdom,Singapore,medium,individual,0.235,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0450,8337.93,HKD,Singapore,Malaysia,low,individual,0.18,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0451,39238.93,USD,Hong Kong,United States,high,individual,0.18,Y,6,N,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,58,Y,high-risk customer; beneficial ownership incomplete; new counterparty
+TXN0452,103973.07,USD,United Kingdom,Indonesia,high,small_business,0.235,N,4,Y,N,N,N,24,N,USD transaction; high-risk customer,55,Y,high-risk customer; wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0453,30416.14,USD,Panama,Singapore,low,small_business,0.214,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0454,3194.94,USD,Hong Kong,United States,low,individual,0.337,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0455,65117.97,USD,United States,Hong Kong,high,small_business,0.235,Y,11,Y,N,N,Y,42,N,USD transaction; US nexus; high-risk customer; large transaction with new counterparty,67,Y,high-risk customer; wire transfer information incomplete; new counterparty; unusual transaction frequency
+TXN0456,11578.52,EUR,UAE,Singapore,low,individual,0.602,N,2,Y,Y,N,N,33,N,elevated sanctions match score; high-risk country exposure,15,N,high-risk country exposure
+TXN0457,35828.05,USD,Singapore,Switzerland,high,corporate,0.293,Y,10,N,Y,N,Y,24,N,USD transaction; high-risk customer,70,Y,high-risk customer; beneficial ownership incomplete; new counterparty; unusual transaction frequency
+TXN0458,14818.12,HKD,United States,Panama,medium,individual,0.404,N,1,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0459,45100.36,USD,United States,Hong Kong,medium,small_business,0.066,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0460,56337.64,SGD,United Kingdom,United States,low,small_business,0.142,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0461,420077.26,USD,Singapore,Malaysia,low,private_banking,0.379,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0462,97077.29,EUR,Singapore,Switzerland,high,corporate,0.261,N,9,Y,Y,N,N,12,N,high-risk customer,32,N,high-risk customer; unusual transaction frequency
+TXN0463,89430.81,EUR,Singapore,Hong Kong,low,small_business,0.1,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0464,14457.01,EUR,Singapore,Switzerland,high,individual,0.287,Y,3,Y,Y,N,N,12,N,high-risk customer,30,N,high-risk customer; new counterparty
+TXN0465,748540.38,EUR,Singapore,Switzerland,high,corporate,0.148,N,5,Y,N,N,N,12,N,high-risk customer,55,Y,high-risk customer; wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0466,15537.06,GBP,Singapore,United States,low,individual,0.056,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0467,47282.02,USD,United Kingdom,UAE,medium,small_business,0.581,N,1,N,Y,N,N,45,Y,elevated sanctions match score; USD transaction; high-risk country exposure,43,N,beneficial ownership incomplete; high-risk country exposure
+TXN0468,11927.68,SGD,Switzerland,Singapore,medium,small_business,0.039,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0469,540900.88,USD,Hong Kong,Singapore,medium,private_banking,0.104,N,5,Y,Y,N,N,12,N,USD transaction,10,N,large transaction inconsistent with customer risk
+TXN0470,3591.9,USD,United States,Singapore,low,individual,0.085,N,2,Y,N,N,N,22,N,USD transaction; US nexus,25,N,wire transfer information incomplete
+TXN0471,161562.21,HKD,Hong Kong,UAE,high,corporate,0.504,N,7,Y,Y,N,N,20,N,high-risk customer; high-risk country exposure,45,Y,high-risk customer; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0472,314763.97,HKD,Hong Kong,Singapore,low,corporate,0.056,Y,4,Y,Y,N,N,8,N,large transaction with new counterparty,10,N,new counterparty
+TXN0473,12300.31,HKD,Singapore,Malaysia,low,small_business,0.295,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0474,1666.24,EUR,Singapore,Indonesia,low,individual,0.237,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0475,510213.34,HKD,Hong Kong,United States,low,private_banking,0.413,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0476,22495.55,USD,Singapore,British Virgin Islands,low,individual,0.587,N,4,N,Y,N,N,45,Y,elevated sanctions match score; USD transaction; high-risk country exposure,43,N,beneficial ownership incomplete; high-risk country exposure
+TXN0477,246393.38,EUR,United States,Singapore,low,corporate,0.095,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0478,7568.21,SGD,United Kingdom,United States,medium,individual,0.177,Y,1,Y,N,N,N,10,N,US nexus,35,N,wire transfer information incomplete; new counterparty
+TXN0479,450352.92,EUR,UAE,Singapore,low,private_banking,0.415,N,1,N,Y,N,N,8,N,high-risk country exposure,43,N,beneficial ownership incomplete; high-risk country exposure
+TXN0480,8662.61,USD,UAE,United States,high,individual,0.645,Y,2,N,Y,N,Y,67,Y,elevated sanctions match score; USD transaction; US nexus; high-risk customer; high-risk country exposure,73,Y,high-risk customer; beneficial ownership incomplete; new counterparty; high-risk country exposure
+TXN0481,19333.0,SGD,Singapore,Switzerland,low,private_banking,0.075,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0482,89732.82,EUR,Indonesia,United States,low,small_business,0.064,N,5,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0483,60782.7,SGD,Hong Kong,United Kingdom,high,private_banking,0.691,N,7,Y,Y,N,N,37,N,elevated sanctions match score; high-risk customer,20,N,high-risk customer
+TXN0484,4210.86,USD,Singapore,United States,low,individual,0.043,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0485,16077.73,GBP,United States,United Kingdom,low,individual,0.538,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0486,15127.59,USD,Singapore,Malaysia,low,small_business,0.184,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0487,270728.57,GBP,Singapore,Malaysia,medium,private_banking,0.058,N,1,N,Y,N,N,0,N,no major US trigger,38,N,beneficial ownership incomplete; large transaction inconsistent with customer risk
+TXN0488,126808.27,HKD,Malaysia,Hong Kong,medium,private_banking,0.037,N,3,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0489,1636.42,USD,United States,United Kingdom,medium,small_business,0.247,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0490,461909.34,EUR,Switzerland,Singapore,medium,private_banking,0.067,N,5,N,Y,N,N,0,N,no major US trigger,38,N,beneficial ownership incomplete; large transaction inconsistent with customer risk
+TXN0491,19500,USD,Malaysia,Hong Kong,low,private_banking,0.598,N,2,Y,Y,Y,N,67,Y,elevated sanctions match score; USD transaction; structuring-like pattern,0,N,no major Singapore trigger
+TXN0492,13297.88,HKD,Indonesia,Hong Kong,medium,individual,0.234,Y,2,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0493,10375.83,SGD,United States,British Virgin Islands,high,small_business,0.623,N,2,Y,Y,N,N,55,Y,elevated sanctions match score; US nexus; high-risk customer; high-risk country exposure,35,N,high-risk customer; high-risk country exposure
+TXN0494,24153.86,USD,United States,UAE,medium,individual,0.422,Y,5,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0495,9200,SGD,Singapore,Switzerland,medium,individual,0.07,Y,3,Y,Y,Y,N,30,N,structuring-like pattern,10,N,new counterparty
+TXN0496,587020.51,SGD,United Kingdom,Malaysia,low,private_banking,0.186,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0497,174958.35,USD,Indonesia,United States,low,corporate,0.227,Y,4,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0498,16153.96,EUR,Hong Kong,Indonesia,low,individual,0.102,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0499,75312.5,USD,United Kingdom,Malaysia,high,small_business,0.399,Y,5,N,Y,N,N,32,N,USD transaction; high-risk customer; large transaction with new counterparty,58,Y,high-risk customer; beneficial ownership incomplete; new counterparty
+TXN0500,19765.82,GBP,Singapore,United States,low,individual,0.131,N,4,Y,N,N,N,10,N,US nexus,25,N,wire transfer information incomplete
+TXN0501,4720.43,SGD,United States,Malaysia,high,individual,0.254,N,7,Y,Y,N,N,22,N,US nexus; high-risk customer,20,N,high-risk customer
+TXN0502,19800,USD,United States,Panama,medium,individual,0.329,N,1,Y,Y,Y,N,60,Y,USD transaction; US nexus; structuring-like pattern; high-risk country exposure,15,N,high-risk country exposure
+TXN0503,30963.71,SGD,United Kingdom,United States,high,individual,0.251,Y,2,Y,Y,N,N,22,N,US nexus; high-risk customer,30,N,high-risk customer; new counterparty
+TXN0504,72992.67,SGD,Malaysia,British Virgin Islands,medium,corporate,0.26,Y,4,Y,Y,N,N,16,N,high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0505,17325.73,USD,Singapore,Malaysia,medium,individual,0.553,Y,2,Y,Y,N,N,37,N,elevated sanctions match score; USD transaction,10,N,new counterparty
+TXN0506,26329.38,HKD,Hong Kong,Singapore,low,small_business,0.143,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0507,19964.3,SGD,Singapore,United Kingdom,low,individual,0.016,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0508,61386.75,HKD,UAE,United States,high,small_business,0.693,N,6,N,Y,N,N,55,Y,elevated sanctions match score; US nexus; high-risk customer; high-risk country exposure,63,Y,high-risk customer; beneficial ownership incomplete; high-risk country exposure
+TXN0509,220335.75,USD,Hong Kong,UAE,low,corporate,0.922,N,11,Y,Y,N,Y,65,Y,high sanctions match score; USD transaction; high-risk country exposure,42,N,unusual transaction frequency; high-risk country exposure; high sanctions match score
+TXN0510,19500,SGD,United Kingdom,United States,medium,individual,0.051,N,4,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0511,24773.03,SGD,Singapore,United States,low,individual,0.049,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0512,18649.85,SGD,Hong Kong,Singapore,low,small_business,0.015,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0513,339863.28,USD,United States,UAE,low,private_banking,0.368,N,4,Y,N,N,N,30,N,USD transaction; US nexus; high-risk country exposure,40,N,wire transfer information incomplete; high-risk country exposure
+TXN0514,9500,USD,Singapore,Malaysia,high,individual,0.135,N,5,N,Y,Y,Y,54,Y,USD transaction; structuring-like pattern; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0515,9500,USD,United States,Panama,medium,individual,0.355,N,1,Y,Y,Y,N,60,Y,USD transaction; US nexus; structuring-like pattern; high-risk country exposure,15,N,high-risk country exposure
+TXN0516,3957.13,USD,Singapore,Panama,low,individual,0.357,N,2,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0517,155947.1,HKD,Hong Kong,Panama,medium,corporate,0.278,N,4,N,Y,N,N,8,N,high-risk country exposure,53,Y,beneficial ownership incomplete; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0518,405848.71,USD,Singapore,Panama,high,corporate,0.581,Y,5,Y,N,N,Y,65,Y,elevated sanctions match score; USD transaction; high-risk customer; high-risk country exposure; large transaction with new counterparty,80,Y,high-risk customer; wire transfer information incomplete; new counterparty; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0519,12017.39,HKD,Panama,Hong Kong,low,individual,0.99,N,4,Y,Y,N,N,53,Y,high sanctions match score; high-risk country exposure,30,N,high-risk country exposure; high sanctions match score
+TXN0520,14865.73,USD,United States,Indonesia,low,individual,0.301,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0521,63177.91,USD,Singapore,United States,medium,private_banking,0.414,Y,3,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0522,12066.66,EUR,Singapore,UAE,low,small_business,0.496,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0523,38141.16,SGD,British Virgin Islands,Singapore,medium,small_business,0.182,N,6,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0524,268139.07,GBP,Hong Kong,Singapore,low,corporate,0.394,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0525,80197.53,SGD,Singapore,United States,medium,small_business,0.028,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0526,26158.89,USD,United States,Hong Kong,medium,small_business,0.036,Y,4,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0527,42758.81,USD,Malaysia,United States,low,small_business,0.081,Y,1,N,Y,N,N,22,N,USD transaction; US nexus,38,N,beneficial ownership incomplete; new counterparty
+TXN0528,46934.62,SGD,Singapore,UAE,high,small_business,0.447,N,10,Y,Y,N,N,20,N,high-risk customer; high-risk country exposure,47,Y,high-risk customer; unusual transaction frequency; high-risk country exposure
+TXN0529,280539.12,USD,United States,UAE,medium,private_banking,0.238,N,3,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0530,30121.94,USD,United States,Malaysia,high,individual,0.863,N,7,Y,Y,N,N,79,Y,high sanctions match score; USD transaction; US nexus; high-risk customer,35,N,high-risk customer; high sanctions match score
+TXN0531,595619.21,USD,Singapore,Hong Kong,low,private_banking,0.148,Y,4,Y,Y,N,N,20,N,USD transaction; large transaction with new counterparty,10,N,new counterparty
+TXN0532,146797.3,USD,United States,United Kingdom,medium,corporate,0.361,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0533,22337.2,USD,Singapore,Switzerland,low,individual,0.162,Y,1,Y,Y,N,N,12,N,USD transaction,10,N,new counterparty
+TXN0534,77285.38,GBP,United States,United Kingdom,low,small_business,0.12,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0535,263976.95,EUR,Hong Kong,British Virgin Islands,medium,corporate,0.372,Y,5,Y,Y,N,Y,16,N,high-risk country exposure; large transaction with new counterparty,35,N,new counterparty; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0536,752113.88,USD,Malaysia,United States,high,private_banking,0.241,Y,1,Y,Y,N,N,42,N,USD transaction; US nexus; high-risk customer; large transaction with new counterparty,40,N,high-risk customer; new counterparty; large transaction inconsistent with customer risk
+TXN0537,19279.18,EUR,Indonesia,Singapore,medium,individual,0.194,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0538,19500,SGD,Hong Kong,Malaysia,low,private_banking,0.03,N,2,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0539,2589.79,EUR,Singapore,United States,medium,individual,0.279,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0540,218251.36,USD,United States,Singapore,low,corporate,0.204,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0541,4990.63,GBP,Malaysia,Hong Kong,low,individual,0.079,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0542,14730.46,USD,United States,Indonesia,low,individual,0.119,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0543,414425.28,SGD,Singapore,Indonesia,low,corporate,0.034,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0544,19800,GBP,United States,British Virgin Islands,medium,individual,0.356,N,1,Y,Y,Y,N,48,Y,US nexus; structuring-like pattern; high-risk country exposure,15,N,high-risk country exposure
+TXN0545,271931.7,USD,United States,United Kingdom,high,private_banking,0.215,N,4,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,30,N,high-risk customer; large transaction inconsistent with customer risk
+TXN0546,283976.75,HKD,Switzerland,United Kingdom,high,corporate,0.22,Y,4,Y,Y,N,N,20,N,high-risk customer; large transaction with new counterparty,40,N,high-risk customer; new counterparty; large transaction inconsistent with customer risk
+TXN0547,477.07,USD,Hong Kong,Malaysia,medium,individual,0.485,Y,1,Y,Y,N,N,12,N,USD transaction,10,N,new counterparty
+TXN0548,17104.97,GBP,Hong Kong,United Kingdom,low,small_business,0.067,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0549,436621.39,SGD,Singapore,United States,low,corporate,0.327,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0550,379318.71,SGD,Singapore,Hong Kong,low,corporate,0.324,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0551,262211.95,USD,United States,Hong Kong,high,private_banking,0.282,Y,3,N,Y,N,N,42,N,USD transaction; US nexus; high-risk customer; large transaction with new counterparty,68,Y,high-risk customer; beneficial ownership incomplete; new counterparty; large transaction inconsistent with customer risk
+TXN0552,24233.34,GBP,Singapore,United States,high,individual,0.448,N,3,Y,Y,N,N,22,N,US nexus; high-risk customer,20,N,high-risk customer
+TXN0553,22148.52,USD,United States,Singapore,medium,individual,0.18,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0554,6092.12,EUR,United Kingdom,Hong Kong,low,small_business,0.254,Y,1,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0555,61283.25,HKD,United States,Malaysia,low,small_business,0.565,Y,2,Y,Y,N,N,43,N,elevated sanctions match score; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0556,165147.45,SGD,United States,Singapore,low,corporate,0.243,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0557,584177.13,USD,United Kingdom,United States,medium,private_banking,0.052,Y,1,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0558,9500,SGD,United States,United Kingdom,low,corporate,0.067,N,6,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0559,12018.68,USD,Singapore,Switzerland,high,small_business,0.148,Y,9,Y,Y,N,N,24,N,USD transaction; high-risk customer,42,N,high-risk customer; new counterparty; unusual transaction frequency
+TXN0560,241987.27,USD,United States,Panama,low,corporate,0.368,N,1,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0561,55498.06,HKD,Malaysia,United States,low,small_business,0.146,N,7,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0562,2665.06,GBP,Singapore,Switzerland,medium,individual,0.084,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0563,10098.23,EUR,Singapore,Indonesia,low,small_business,0.165,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0564,15030.36,USD,British Virgin Islands,UAE,low,individual,0.336,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0565,538765.3,SGD,United States,Malaysia,high,corporate,0.369,Y,5,Y,Y,N,N,30,N,US nexus; high-risk customer; large transaction with new counterparty,40,N,high-risk customer; new counterparty; large transaction inconsistent with customer risk
+TXN0566,17544.24,USD,Malaysia,Singapore,medium,individual,0.037,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0567,572847.1,SGD,United States,Hong Kong,low,private_banking,0.559,N,6,Y,Y,N,N,35,N,elevated sanctions match score; US nexus,0,N,no major Singapore trigger
+TXN0568,43594.15,SGD,Singapore,United Kingdom,medium,private_banking,0.277,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0569,398285.57,USD,United Kingdom,Singapore,low,corporate,0.26,N,6,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0570,9299.2,EUR,Indonesia,British Virgin Islands,low,individual,0.433,N,3,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0571,151173.3,SGD,British Virgin Islands,Malaysia,medium,corporate,0.273,N,2,N,Y,N,N,8,N,high-risk country exposure,53,Y,beneficial ownership incomplete; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0572,8436.07,USD,Switzerland,United States,low,small_business,0.1,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0573,9500,USD,United States,Hong Kong,medium,corporate,0.031,N,2,Y,Y,Y,N,52,Y,USD transaction; US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0574,11096.89,USD,Singapore,United States,low,individual,0.141,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0575,3535.63,EUR,Singapore,Indonesia,low,individual,0.319,Y,1,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0576,118607.85,GBP,Malaysia,UAE,medium,corporate,0.352,N,1,Y,N,N,N,8,N,high-risk country exposure,50,Y,wire transfer information incomplete; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0577,388025.46,SGD,Malaysia,Singapore,medium,corporate,0.049,N,1,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0578,22280.94,USD,United States,Singapore,low,individual,0.028,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0579,2120.3,USD,Hong Kong,United States,high,small_business,0.341,Y,5,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,30,N,high-risk customer; new counterparty
+TXN0580,9800,EUR,United States,Singapore,medium,private_banking,0.206,Y,1,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,10,N,new counterparty
+TXN0581,12848.61,USD,Switzerland,United States,medium,individual,0.197,Y,1,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0582,12062.27,USD,Singapore,United Kingdom,medium,individual,0.382,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0583,76664.34,SGD,Singapore,Indonesia,medium,small_business,0.097,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0584,411060.13,USD,United States,Singapore,low,corporate,0.144,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0585,13970.9,SGD,United States,Hong Kong,medium,individual,0.43,Y,3,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0586,635899.08,HKD,United Kingdom,United States,high,corporate,0.122,Y,6,Y,Y,N,N,30,N,US nexus; high-risk customer; large transaction with new counterparty,40,N,high-risk customer; new counterparty; large transaction inconsistent with customer risk
+TXN0587,629469.48,GBP,Hong Kong,Singapore,low,private_banking,0.231,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0588,352588.94,USD,Malaysia,United Kingdom,low,corporate,0.08,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0589,43727.85,EUR,United Kingdom,UAE,medium,small_business,0.461,N,4,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0590,42321.83,SGD,Panama,British Virgin Islands,high,small_business,0.547,N,11,Y,Y,N,N,20,N,high-risk customer; high-risk country exposure,47,Y,high-risk customer; unusual transaction frequency; high-risk country exposure
+TXN0591,33311.74,USD,Switzerland,Singapore,low,corporate,0.061,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0592,3719.08,EUR,United States,Singapore,low,small_business,0.169,N,5,N,Y,N,N,10,N,US nexus,28,N,beneficial ownership incomplete
+TXN0593,15103.89,USD,Singapore,Indonesia,medium,individual,0.201,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0594,13825.85,USD,Hong Kong,Switzerland,medium,individual,0.077,Y,2,Y,Y,N,N,12,N,USD transaction,10,N,new counterparty
+TXN0595,9900,USD,UAE,Malaysia,low,corporate,0.316,N,2,Y,Y,Y,N,50,Y,USD transaction; structuring-like pattern; high-risk country exposure,15,N,high-risk country exposure
+TXN0596,139865.88,USD,Singapore,Indonesia,medium,private_banking,0.037,N,1,Y,Y,N,N,12,N,USD transaction,10,N,large transaction inconsistent with customer risk
+TXN0597,20230.9,USD,Malaysia,British Virgin Islands,medium,individual,0.278,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0598,9800,SGD,United States,Panama,medium,small_business,0.861,Y,2,Y,Y,Y,Y,93,Y,high sanctions match score; US nexus; structuring-like pattern; high-risk country exposure,40,N,new counterparty; high-risk country exposure; high sanctions match score
+TXN0599,123398.98,GBP,United Kingdom,Switzerland,high,small_business,0.256,N,5,N,N,N,N,12,N,high-risk customer,83,Y,high-risk customer; beneficial ownership incomplete; wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0600,19264.77,USD,Singapore,United Kingdom,medium,individual,0.22,N,3,Y,N,N,N,12,N,USD transaction,25,N,wire transfer information incomplete
+TXN0601,9336.61,USD,Singapore,Indonesia,high,individual,0.321,Y,2,N,Y,N,N,24,N,USD transaction; high-risk customer,58,Y,high-risk customer; beneficial ownership incomplete; new counterparty
+TXN0602,86269.99,USD,Indonesia,United States,high,small_business,0.358,N,7,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,20,N,high-risk customer
+TXN0603,182824.32,USD,Singapore,Hong Kong,low,corporate,0.086,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0604,573339.15,USD,Singapore,Switzerland,high,corporate,0.288,Y,3,N,Y,N,N,32,N,USD transaction; high-risk customer; large transaction with new counterparty,68,Y,high-risk customer; beneficial ownership incomplete; new counterparty; large transaction inconsistent with customer risk
+TXN0605,77976.03,SGD,Indonesia,United States,low,small_business,0.048,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0606,351750.94,USD,United States,British Virgin Islands,medium,corporate,0.327,Y,5,Y,Y,N,N,38,N,USD transaction; US nexus; high-risk country exposure; large transaction with new counterparty,35,N,new counterparty; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0607,64258.61,SGD,Singapore,Panama,medium,small_business,0.433,Y,5,Y,Y,N,N,16,N,high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0608,308307.27,USD,UAE,Hong Kong,low,corporate,0.485,N,2,Y,Y,N,Y,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0609,5345.93,GBP,Switzerland,United Kingdom,medium,individual,0.086,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0610,55908.41,SGD,Singapore,Hong Kong,low,small_business,0.043,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0611,15240.65,USD,Singapore,United States,low,individual,0.243,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0612,396823.91,USD,British Virgin Islands,United States,low,corporate,0.207,N,1,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0613,13637.03,SGD,United States,Indonesia,low,individual,0.208,N,4,Y,N,N,N,10,N,US nexus,25,N,wire transfer information incomplete
+TXN0614,49409.16,HKD,United States,United Kingdom,low,small_business,0.032,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0615,12301.65,SGD,Hong Kong,UAE,low,individual,0.325,Y,2,Y,Y,N,N,8,N,high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0616,204496.68,EUR,United States,Hong Kong,medium,corporate,0.005,N,2,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0617,51094.49,GBP,United Kingdom,British Virgin Islands,medium,small_business,0.495,Y,1,Y,Y,N,N,16,N,high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0618,5995.81,USD,United Kingdom,Singapore,medium,individual,0.122,N,3,N,Y,N,N,12,N,USD transaction,28,N,beneficial ownership incomplete
+TXN0619,1995.91,USD,Singapore,Indonesia,medium,individual,0.363,Y,4,Y,Y,N,Y,12,N,USD transaction,10,N,new counterparty
+TXN0620,60075.38,SGD,Singapore,Indonesia,high,small_business,0.936,Y,7,Y,Y,N,Y,65,Y,high sanctions match score; high-risk customer; large transaction with new counterparty,45,Y,high-risk customer; new counterparty; high sanctions match score
+TXN0621,50028.44,GBP,Singapore,Malaysia,low,small_business,0.66,N,1,Y,Y,N,N,25,N,elevated sanctions match score,0,N,no major Singapore trigger
+TXN0622,8723.13,SGD,Singapore,UAE,medium,individual,0.218,N,1,Y,Y,N,Y,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0623,19800,EUR,United States,Singapore,low,individual,0.152,N,3,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0624,21149.01,EUR,Switzerland,UAE,high,individual,0.489,N,4,Y,N,N,N,20,N,high-risk customer; high-risk country exposure,60,Y,high-risk customer; wire transfer information incomplete; high-risk country exposure
+TXN0625,17171.48,USD,Singapore,Panama,high,individual,0.533,N,7,Y,N,N,N,32,N,USD transaction; high-risk customer; high-risk country exposure,60,Y,high-risk customer; wire transfer information incomplete; high-risk country exposure
+TXN0626,41493.64,EUR,Singapore,United States,low,small_business,0.171,N,7,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0627,2810.92,SGD,UAE,United States,high,individual,0.675,N,9,N,Y,N,Y,55,Y,elevated sanctions match score; US nexus; high-risk customer; high-risk country exposure,75,Y,high-risk customer; beneficial ownership incomplete; unusual transaction frequency; high-risk country exposure
+TXN0628,19804.78,USD,United Kingdom,Panama,medium,individual,0.647,N,1,Y,Y,N,N,45,Y,elevated sanctions match score; USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0629,75167.07,USD,United Kingdom,Malaysia,medium,private_banking,0.183,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0630,218039.5,SGD,Indonesia,UAE,low,corporate,0.701,N,4,Y,Y,N,N,33,N,elevated sanctions match score; high-risk country exposure,15,N,high-risk country exposure
+TXN0631,357498.73,SGD,Singapore,UAE,low,corporate,0.296,N,4,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0632,22037.3,SGD,United States,Hong Kong,low,individual,0.289,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0633,9500,HKD,United States,Singapore,high,corporate,0.31,N,10,Y,N,Y,Y,52,Y,US nexus; structuring-like pattern; high-risk customer,57,Y,high-risk customer; wire transfer information incomplete; unusual transaction frequency
+TXN0634,20344.79,USD,United States,Hong Kong,medium,individual,0.506,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0635,91007.99,USD,United Kingdom,United States,low,private_banking,0.047,Y,3,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0636,73493.99,EUR,United States,Malaysia,low,private_banking,0.023,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0637,87057.17,SGD,British Virgin Islands,Singapore,low,small_business,0.306,N,3,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0638,312364.97,USD,Singapore,Indonesia,low,corporate,0.505,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0639,14706.31,USD,United States,Hong Kong,low,individual,0.176,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0640,9500,USD,Singapore,Malaysia,low,individual,0.05,N,2,Y,Y,Y,N,42,N,USD transaction; structuring-like pattern,0,N,no major Singapore trigger
+TXN0641,194087.15,HKD,Indonesia,Switzerland,low,private_banking,0.564,Y,2,Y,Y,N,N,33,N,elevated sanctions match score; large transaction with new counterparty,10,N,new counterparty
+TXN0642,36516.14,USD,British Virgin Islands,Hong Kong,medium,small_business,0.465,Y,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0643,7426.16,USD,Hong Kong,British Virgin Islands,low,individual,0.304,Y,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0644,30048.24,USD,United States,Singapore,low,small_business,0.515,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0645,112985.88,EUR,United States,Singapore,high,small_business,0.375,N,4,N,Y,N,N,22,N,US nexus; high-risk customer,58,Y,high-risk customer; beneficial ownership incomplete; large transaction inconsistent with customer risk
+TXN0646,220859.81,SGD,Singapore,Hong Kong,low,private_banking,0.281,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0647,454903.82,SGD,Malaysia,United Kingdom,high,corporate,0.344,N,5,N,Y,N,N,12,N,high-risk customer,58,Y,high-risk customer; beneficial ownership incomplete; large transaction inconsistent with customer risk
+TXN0648,581782.04,EUR,Singapore,United States,medium,private_banking,0.079,N,1,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0649,5163.04,SGD,United States,UAE,medium,individual,0.367,Y,3,Y,Y,N,N,18,N,US nexus; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0650,13700.8,GBP,Singapore,United States,medium,individual,0.21,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0651,5589.53,USD,United States,Hong Kong,low,individual,0.063,N,6,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0652,36525.42,USD,United States,Hong Kong,high,individual,0.221,N,8,Y,N,N,N,34,N,USD transaction; US nexus; high-risk customer,57,Y,high-risk customer; wire transfer information incomplete; unusual transaction frequency
+TXN0653,8908.1,USD,United States,Panama,medium,individual,0.241,N,5,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0654,256009.42,USD,United States,Malaysia,low,private_banking,0.133,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0655,549723.6,SGD,United States,Singapore,high,corporate,0.399,N,10,Y,Y,N,N,22,N,US nexus; high-risk customer,42,N,high-risk customer; unusual transaction frequency; large transaction inconsistent with customer risk
+TXN0656,27500.42,EUR,United States,Panama,medium,corporate,0.224,N,1,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0657,14043.61,EUR,United States,United Kingdom,low,individual,0.015,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0658,384388.15,SGD,Hong Kong,Singapore,medium,corporate,0.633,Y,4,Y,Y,N,N,33,N,elevated sanctions match score; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0659,211594.79,USD,Indonesia,United States,low,corporate,0.455,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0660,54699.63,EUR,United States,Singapore,high,small_business,0.204,N,4,Y,N,N,N,22,N,US nexus; high-risk customer,45,Y,high-risk customer; wire transfer information incomplete
+TXN0661,90246.31,EUR,Malaysia,Hong Kong,high,small_business,0.563,Y,3,Y,Y,N,N,45,Y,elevated sanctions match score; high-risk customer; large transaction with new counterparty,30,N,high-risk customer; new counterparty
+TXN0662,174173.0,SGD,United States,Singapore,medium,corporate,0.012,N,3,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0663,436384.75,EUR,Switzerland,Singapore,low,corporate,0.259,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0664,9500,USD,United States,Malaysia,low,individual,0.04,N,5,Y,Y,Y,N,52,Y,USD transaction; US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0665,19380.13,SGD,Singapore,United Kingdom,low,individual,0.096,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0666,429908.2,USD,United States,Indonesia,medium,corporate,0.001,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0667,10571.18,SGD,Hong Kong,United States,medium,individual,0.069,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0668,436556.86,SGD,Hong Kong,Singapore,medium,private_banking,0.139,N,6,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0669,15868.81,SGD,Singapore,Malaysia,medium,individual,0.045,Y,2,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0670,10506.71,HKD,Switzerland,United States,low,individual,0.021,N,5,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0671,9200,SGD,Singapore,UAE,low,small_business,0.153,N,3,Y,Y,Y,N,38,N,structuring-like pattern; high-risk country exposure,15,N,high-risk country exposure
+TXN0672,20819.62,SGD,United States,UAE,high,individual,0.413,N,6,Y,N,N,N,30,N,US nexus; high-risk customer; high-risk country exposure,60,Y,high-risk customer; wire transfer information incomplete; high-risk country exposure
+TXN0673,9392.22,GBP,Singapore,UAE,medium,individual,0.29,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0674,2987.54,SGD,Singapore,Indonesia,medium,individual,0.251,Y,4,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0675,9800,USD,Indonesia,Singapore,low,corporate,0.044,N,3,Y,Y,Y,N,42,N,USD transaction; structuring-like pattern,0,N,no major Singapore trigger
+TXN0676,32380.92,USD,Singapore,Malaysia,low,small_business,0.12,Y,1,Y,N,N,N,12,N,USD transaction,35,N,wire transfer information incomplete; new counterparty
+TXN0677,63466.51,SGD,Indonesia,Singapore,low,small_business,0.135,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0678,203472.09,USD,Hong Kong,British Virgin Islands,medium,private_banking,0.389,N,3,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0679,618410.55,USD,United States,United Kingdom,low,private_banking,0.194,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0680,16728.63,USD,Singapore,Hong Kong,low,individual,0.23,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0681,30623.96,EUR,United States,Singapore,high,individual,0.162,N,5,N,Y,N,N,22,N,US nexus; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0682,37498.48,SGD,United States,Indonesia,high,small_business,0.504,N,11,Y,Y,N,N,22,N,US nexus; high-risk customer,32,N,high-risk customer; unusual transaction frequency
+TXN0683,330478.07,GBP,United Kingdom,Switzerland,low,corporate,0.364,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0684,35531.85,USD,Hong Kong,British Virgin Islands,low,small_business,0.878,N,3,Y,Y,N,N,65,Y,high sanctions match score; USD transaction; high-risk country exposure,30,N,high-risk country exposure; high sanctions match score
+TXN0685,8956.68,SGD,Hong Kong,United States,low,individual,0.148,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0686,16909.13,SGD,United States,Switzerland,high,individual,0.145,N,4,N,Y,N,N,22,N,US nexus; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0687,19764.73,EUR,Indonesia,Malaysia,low,individual,0.143,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0688,38563.05,USD,Indonesia,Singapore,high,individual,0.566,N,5,N,Y,N,N,49,Y,elevated sanctions match score; USD transaction; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0689,8826.13,USD,Switzerland,United States,low,individual,0.062,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0690,106889.25,USD,United States,Switzerland,high,small_business,0.568,N,6,Y,N,N,N,59,Y,elevated sanctions match score; USD transaction; US nexus; high-risk customer,55,Y,high-risk customer; wire transfer information incomplete; large transaction inconsistent with customer risk
+TXN0691,19775.74,SGD,Singapore,UAE,low,individual,0.295,N,3,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0692,6059.54,SGD,Switzerland,Singapore,high,individual,0.472,N,5,Y,N,N,N,12,N,high-risk customer,45,Y,high-risk customer; wire transfer information incomplete
+TXN0693,14877.43,USD,Singapore,Switzerland,low,individual,0.118,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0694,491422.87,EUR,United States,Singapore,low,private_banking,0.259,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0695,10705.43,EUR,Hong Kong,Panama,high,individual,0.3,N,7,N,Y,N,N,20,N,high-risk customer; high-risk country exposure,63,Y,high-risk customer; beneficial ownership incomplete; high-risk country exposure
+TXN0696,77892.29,USD,United Kingdom,Malaysia,low,small_business,0.047,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0697,66918.37,SGD,UAE,Singapore,medium,small_business,0.437,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0698,175150.52,SGD,United States,Malaysia,medium,corporate,0.175,N,1,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0699,23968.92,USD,United States,Indonesia,low,individual,0.062,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0700,47736.92,SGD,United States,Malaysia,medium,small_business,0.079,N,4,N,Y,N,N,10,N,US nexus,28,N,beneficial ownership incomplete
+TXN0701,12352.2,USD,United States,United Kingdom,low,individual,0.5,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0702,614656.09,SGD,Singapore,Switzerland,low,private_banking,0.047,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0703,823452.49,EUR,United States,UAE,high,private_banking,0.537,N,7,Y,Y,N,N,30,N,US nexus; high-risk customer; high-risk country exposure,45,Y,high-risk customer; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0704,231736.75,SGD,Indonesia,United States,low,corporate,0.375,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0705,6710.75,USD,Singapore,United States,low,individual,0.079,N,5,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0706,641856.98,USD,Singapore,United States,low,private_banking,0.019,N,1,Y,N,N,N,22,N,USD transaction; US nexus,25,N,wire transfer information incomplete
+TXN0707,242509.4,GBP,British Virgin Islands,Hong Kong,low,corporate,0.293,Y,5,Y,Y,N,N,16,N,high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0708,12615.59,USD,Singapore,Malaysia,medium,individual,0.391,Y,4,Y,Y,N,N,12,N,USD transaction,10,N,new counterparty
+TXN0709,4417.77,SGD,Singapore,UAE,low,individual,0.418,N,2,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0710,17746.57,GBP,Indonesia,Singapore,high,small_business,0.263,N,9,Y,Y,N,N,12,N,high-risk customer,32,N,high-risk customer; unusual transaction frequency
+TXN0711,151692.41,SGD,United States,Indonesia,medium,private_banking,0.244,N,6,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0712,373118.85,EUR,Hong Kong,Singapore,low,corporate,0.674,N,3,Y,Y,N,N,25,N,elevated sanctions match score,0,N,no major Singapore trigger
+TXN0713,14626.47,USD,Singapore,United Kingdom,medium,individual,0.088,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0714,19008.97,EUR,Singapore,Hong Kong,low,individual,0.199,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0715,7374.95,GBP,Malaysia,British Virgin Islands,medium,individual,0.317,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0716,947948.34,EUR,Indonesia,United States,high,private_banking,0.204,N,3,Y,Y,N,N,22,N,US nexus; high-risk customer,30,N,high-risk customer; large transaction inconsistent with customer risk
+TXN0717,19509.91,USD,British Virgin Islands,Singapore,low,individual,0.803,N,5,Y,Y,N,N,65,Y,high sanctions match score; USD transaction; high-risk country exposure,30,N,high-risk country exposure; high sanctions match score
+TXN0718,584783.68,USD,United States,British Virgin Islands,high,private_banking,0.512,N,6,Y,N,N,N,42,N,USD transaction; US nexus; high-risk customer; high-risk country exposure,70,Y,high-risk customer; wire transfer information incomplete; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0719,99548.0,SGD,Indonesia,UAE,high,corporate,0.463,N,8,Y,Y,N,N,20,N,high-risk customer; high-risk country exposure,47,Y,high-risk customer; unusual transaction frequency; high-risk country exposure
+TXN0720,19500,SGD,Singapore,United Kingdom,medium,corporate,0.075,N,2,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0721,2713.24,SGD,UAE,Hong Kong,low,individual,0.239,N,2,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0722,55036.85,SGD,United States,Malaysia,medium,small_business,0.066,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0723,41064.65,EUR,Malaysia,Singapore,low,corporate,0.079,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0724,330039.64,SGD,United Kingdom,Panama,medium,corporate,0.284,N,1,Y,Y,N,N,8,N,high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0725,4857.17,USD,United States,Hong Kong,medium,individual,0.118,Y,1,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0726,18455.39,SGD,United States,Indonesia,high,individual,0.199,N,3,N,N,N,N,22,N,US nexus; high-risk customer,73,Y,high-risk customer; beneficial ownership incomplete; wire transfer information incomplete
+TXN0727,41929.71,SGD,United States,UAE,medium,corporate,0.488,Y,3,Y,Y,N,N,18,N,US nexus; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0728,371974.3,SGD,United States,Singapore,low,private_banking,0.287,Y,1,Y,Y,N,N,18,N,US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0729,282926.29,USD,Singapore,United Kingdom,medium,private_banking,0.179,N,3,Y,Y,N,N,12,N,USD transaction,10,N,large transaction inconsistent with customer risk
+TXN0730,82182.11,HKD,Singapore,United Kingdom,low,small_business,0.135,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0731,12524.08,HKD,United Kingdom,Switzerland,medium,individual,0.097,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0732,65826.48,USD,Singapore,United States,low,small_business,0.302,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0733,9636.42,USD,Malaysia,Singapore,low,individual,0.234,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0734,13356.26,USD,Malaysia,Panama,low,individual,0.382,N,4,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0735,13638.74,USD,Malaysia,Singapore,medium,individual,0.117,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0736,15259.17,USD,United States,Malaysia,low,individual,0.193,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0737,16533.59,SGD,Singapore,United States,low,individual,0.168,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0738,69609.68,SGD,United Kingdom,United States,low,small_business,0.348,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0739,45937.89,USD,United States,Malaysia,medium,small_business,0.148,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0740,362983.64,USD,Singapore,Malaysia,medium,corporate,0.328,N,4,Y,Y,N,N,12,N,USD transaction,10,N,large transaction inconsistent with customer risk
+TXN0741,395382.94,USD,United States,United Kingdom,low,private_banking,0.172,N,2,N,Y,N,N,22,N,USD transaction; US nexus,28,N,beneficial ownership incomplete
+TXN0742,518813.13,USD,Hong Kong,Panama,medium,private_banking,0.399,Y,1,Y,Y,N,N,28,N,USD transaction; high-risk country exposure; large transaction with new counterparty,35,N,new counterparty; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0743,48880.41,EUR,Singapore,United States,medium,small_business,0.146,N,1,N,Y,N,N,10,N,US nexus,28,N,beneficial ownership incomplete
+TXN0744,24157.72,GBP,United States,Malaysia,medium,individual,0.18,Y,3,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0745,21877.34,USD,Singapore,Hong Kong,low,individual,0.076,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0746,3327.7,SGD,United States,Hong Kong,medium,individual,0.242,N,7,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0747,20317.09,USD,Indonesia,United States,medium,individual,0.285,Y,3,Y,N,N,N,22,N,USD transaction; US nexus,35,N,wire transfer information incomplete; new counterparty
+TXN0748,82408.0,USD,Singapore,Malaysia,low,small_business,0.214,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0749,52343.97,EUR,United States,Indonesia,low,small_business,0.119,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0750,44453.31,EUR,United Kingdom,Hong Kong,low,corporate,0.28,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0751,197620.55,GBP,Singapore,United Kingdom,low,corporate,0.31,Y,1,Y,Y,N,N,8,N,large transaction with new counterparty,10,N,new counterparty
+TXN0752,97548.63,GBP,Singapore,United Kingdom,high,small_business,0.437,N,7,N,Y,N,N,12,N,high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0753,9809.02,SGD,Singapore,British Virgin Islands,low,individual,0.349,N,2,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0754,76344.83,SGD,Switzerland,Singapore,low,small_business,0.114,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0755,78350.68,GBP,Singapore,United States,low,small_business,0.084,Y,2,Y,Y,N,N,18,N,US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0756,2250.08,EUR,Singapore,UAE,low,small_business,0.576,N,2,Y,Y,N,N,33,N,elevated sanctions match score; high-risk country exposure,15,N,high-risk country exposure
+TXN0757,632546.72,USD,Singapore,Hong Kong,low,private_banking,0.191,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0758,192494.08,SGD,United States,Singapore,high,private_banking,0.944,N,7,Y,Y,N,N,67,Y,high sanctions match score; US nexus; high-risk customer,45,Y,high-risk customer; large transaction inconsistent with customer risk; high sanctions match score
+TXN0759,23476.81,SGD,UAE,Malaysia,low,individual,0.504,N,5,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0760,226476.22,SGD,Hong Kong,Singapore,medium,corporate,0.124,N,2,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0761,18716.42,EUR,British Virgin Islands,Hong Kong,low,individual,0.191,Y,4,Y,Y,N,N,8,N,high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0762,8314.8,USD,United States,British Virgin Islands,low,individual,0.706,N,2,Y,Y,N,N,55,Y,elevated sanctions match score; USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0763,112585.85,GBP,Singapore,United States,high,small_business,0.576,N,6,Y,Y,N,N,47,Y,elevated sanctions match score; US nexus; high-risk customer,30,N,high-risk customer; large transaction inconsistent with customer risk
+TXN0764,4888.13,EUR,Hong Kong,UAE,low,small_business,0.302,N,1,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0765,20855.51,USD,United States,Singapore,medium,individual,0.072,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0766,25295.3,USD,United States,Malaysia,low,private_banking,0.355,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0767,20212.84,USD,Singapore,UAE,medium,small_business,0.231,Y,2,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0768,27980.0,GBP,United Kingdom,United States,high,small_business,0.364,N,4,N,Y,N,N,22,N,US nexus; high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0769,156137.5,SGD,Malaysia,Hong Kong,low,corporate,0.28,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0770,9258.56,USD,Singapore,Switzerland,medium,individual,0.197,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0771,104953.4,EUR,UAE,United States,low,corporate,0.376,N,1,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0772,17325.4,SGD,Singapore,Malaysia,medium,small_business,0.271,Y,1,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0773,373041.98,SGD,Singapore,Hong Kong,low,corporate,0.643,N,1,Y,Y,N,N,25,N,elevated sanctions match score,0,N,no major Singapore trigger
+TXN0774,230359.05,SGD,Hong Kong,Malaysia,high,corporate,0.212,N,7,Y,Y,N,N,12,N,high-risk customer,30,N,high-risk customer; large transaction inconsistent with customer risk
+TXN0775,990820.65,USD,Panama,Singapore,high,private_banking,0.636,N,4,Y,Y,N,N,57,Y,elevated sanctions match score; USD transaction; high-risk customer; high-risk country exposure,45,Y,high-risk customer; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0776,31078.2,SGD,Singapore,Switzerland,high,individual,0.232,N,6,Y,Y,N,N,12,N,high-risk customer,20,N,high-risk customer
+TXN0777,19800,SGD,Hong Kong,United States,low,corporate,0.105,N,6,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0778,17018.12,USD,Malaysia,Singapore,high,individual,0.181,N,4,Y,Y,N,N,24,N,USD transaction; high-risk customer,20,N,high-risk customer
+TXN0779,349553.17,USD,Malaysia,United States,medium,corporate,0.234,N,5,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0780,10775.09,SGD,UAE,Malaysia,high,individual,0.757,N,2,Y,Y,N,Y,65,Y,high sanctions match score; high-risk customer; high-risk country exposure,50,Y,high-risk customer; high-risk country exposure; high sanctions match score
+TXN0781,55409.86,USD,Singapore,Hong Kong,low,corporate,0.154,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0782,321343.28,USD,Singapore,United Kingdom,low,corporate,0.031,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0783,11908.63,SGD,Hong Kong,Singapore,low,small_business,0.313,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0784,7409.52,SGD,Hong Kong,Singapore,low,individual,0.275,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0785,9800,USD,Malaysia,Singapore,medium,small_business,0.042,Y,3,Y,Y,Y,N,42,N,USD transaction; structuring-like pattern,10,N,new counterparty
+TXN0786,67049.7,USD,United States,Singapore,low,small_business,0.189,N,7,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0787,344284.86,SGD,United States,Hong Kong,low,corporate,0.036,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0788,24311.66,USD,United Kingdom,Malaysia,low,small_business,0.332,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0789,358326.66,EUR,Singapore,United States,medium,private_banking,0.007,N,2,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0790,19800,USD,Singapore,United States,low,private_banking,0.148,N,1,Y,Y,Y,N,52,Y,USD transaction; US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0791,84812.63,SGD,UAE,United States,medium,small_business,0.58,N,1,Y,Y,N,N,43,N,elevated sanctions match score; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0792,594039.13,USD,Hong Kong,Singapore,medium,private_banking,0.035,N,2,Y,Y,N,N,12,N,USD transaction,10,N,large transaction inconsistent with customer risk
+TXN0793,9200,HKD,Singapore,United States,high,individual,0.18,N,9,N,Y,Y,Y,52,Y,US nexus; structuring-like pattern; high-risk customer,60,Y,high-risk customer; beneficial ownership incomplete; unusual transaction frequency
+TXN0794,598973.23,EUR,United Kingdom,Hong Kong,high,private_banking,0.124,Y,5,Y,Y,N,N,20,N,high-risk customer; large transaction with new counterparty,40,N,high-risk customer; new counterparty; large transaction inconsistent with customer risk
+TXN0795,21363.48,USD,Indonesia,Singapore,low,individual,0.264,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0796,275402.7,USD,Malaysia,Singapore,medium,corporate,0.215,N,3,Y,Y,N,N,12,N,USD transaction,10,N,large transaction inconsistent with customer risk
+TXN0797,13535.87,SGD,Singapore,United States,low,individual,0.007,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0798,16827.45,USD,Hong Kong,Singapore,medium,individual,0.029,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0799,342303.27,HKD,United States,Hong Kong,low,private_banking,0.09,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0800,253821.87,EUR,Singapore,Panama,low,corporate,0.99,N,7,Y,Y,N,N,53,Y,high sanctions match score; high-risk country exposure,30,N,high-risk country exposure; high sanctions match score
+TXN0801,16817.57,HKD,Singapore,Hong Kong,medium,individual,0.049,N,5,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0802,12019.6,EUR,United States,Singapore,medium,individual,0.122,N,5,Y,N,N,N,10,N,US nexus,25,N,wire transfer information incomplete
+TXN0803,22716.24,USD,Singapore,United States,low,individual,0.155,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0804,34005.62,USD,United Kingdom,UAE,low,small_business,0.36,Y,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0805,19500,USD,Singapore,Malaysia,high,small_business,0.433,Y,4,Y,Y,Y,Y,54,Y,USD transaction; structuring-like pattern; high-risk customer,30,N,high-risk customer; new counterparty
+TXN0806,7534.0,USD,Malaysia,United States,high,individual,0.192,N,5,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,20,N,high-risk customer
+TXN0807,13285.55,SGD,Singapore,UAE,low,small_business,0.316,N,4,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0808,9800,EUR,Hong Kong,Singapore,medium,private_banking,0.444,N,1,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0809,17833.91,EUR,Malaysia,Hong Kong,medium,individual,0.127,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0810,102162.36,GBP,United States,UAE,low,corporate,0.312,N,1,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0811,68073.59,USD,Indonesia,Singapore,medium,small_business,0.087,N,3,N,Y,N,N,12,N,USD transaction,28,N,beneficial ownership incomplete
+TXN0812,40876.29,EUR,Singapore,United States,high,individual,0.457,Y,5,Y,Y,N,N,22,N,US nexus; high-risk customer,30,N,high-risk customer; new counterparty
+TXN0813,26379.31,USD,United States,United Kingdom,high,individual,0.383,N,6,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,20,N,high-risk customer
+TXN0814,459324.76,EUR,Hong Kong,Singapore,medium,private_banking,0.162,Y,1,Y,N,N,N,8,N,large transaction with new counterparty,45,Y,wire transfer information incomplete; new counterparty; large transaction inconsistent with customer risk
+TXN0815,61557.28,HKD,Malaysia,United States,medium,private_banking,0.028,N,5,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0816,124512.16,USD,United States,Singapore,low,corporate,0.045,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0817,291396.52,USD,Hong Kong,United Kingdom,low,corporate,0.072,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0818,4816.71,USD,United Kingdom,Singapore,medium,small_business,0.229,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0819,5894.18,EUR,Singapore,Hong Kong,low,individual,0.282,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0820,195148.4,GBP,United States,Indonesia,medium,corporate,0.174,N,3,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0821,12540.54,HKD,Singapore,UAE,medium,individual,0.273,N,3,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0822,9500,EUR,Singapore,British Virgin Islands,low,small_business,0.436,N,4,N,Y,Y,Y,38,N,structuring-like pattern; high-risk country exposure,43,N,beneficial ownership incomplete; high-risk country exposure
+TXN0823,14616.55,SGD,Singapore,British Virgin Islands,high,private_banking,0.509,N,5,Y,Y,N,N,20,N,high-risk customer; high-risk country exposure,35,N,high-risk customer; high-risk country exposure
+TXN0824,16021.92,USD,Singapore,United States,low,small_business,0.053,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0825,16663.54,SGD,Singapore,Malaysia,low,individual,0.016,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0826,38893.59,USD,United States,British Virgin Islands,low,small_business,0.282,N,5,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0827,15326.97,SGD,Hong Kong,Malaysia,low,individual,0.634,Y,3,Y,Y,N,N,25,N,elevated sanctions match score,10,N,new counterparty
+TXN0828,311527.55,SGD,United States,Indonesia,low,corporate,0.478,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0829,18410.7,GBP,Switzerland,Singapore,low,individual,0.054,Y,1,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0830,258099.16,USD,Indonesia,Singapore,low,corporate,0.247,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0831,286431.59,USD,Malaysia,UAE,high,corporate,0.47,N,6,Y,Y,N,Y,32,N,USD transaction; high-risk customer; high-risk country exposure,45,Y,high-risk customer; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0832,28089.68,USD,Singapore,United States,medium,corporate,0.244,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0833,17638.39,USD,Singapore,United States,low,individual,0.23,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0834,886379.87,SGD,Singapore,United Kingdom,high,private_banking,0.426,Y,6,N,Y,N,N,20,N,high-risk customer; large transaction with new counterparty,68,Y,high-risk customer; beneficial ownership incomplete; new counterparty; large transaction inconsistent with customer risk
+TXN0835,4290.05,USD,Singapore,British Virgin Islands,medium,small_business,0.247,Y,1,N,Y,N,N,20,N,USD transaction; high-risk country exposure,53,Y,beneficial ownership incomplete; new counterparty; high-risk country exposure
+TXN0836,24689.43,USD,Hong Kong,United Kingdom,medium,individual,0.054,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0837,21370.46,SGD,United Kingdom,United States,low,individual,0.051,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0838,5811.32,USD,Singapore,Hong Kong,medium,individual,0.079,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0839,13672.74,SGD,Singapore,United Kingdom,medium,individual,0.18,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0840,836.93,USD,United States,Indonesia,low,individual,0.268,N,2,N,Y,N,N,22,N,USD transaction; US nexus,28,N,beneficial ownership incomplete
+TXN0841,9200,GBP,Singapore,Indonesia,medium,corporate,0.326,N,5,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0842,86690.01,SGD,Singapore,United States,medium,small_business,0.238,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0843,130649.21,USD,United States,Malaysia,low,corporate,0.265,Y,2,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0844,1068.21,GBP,United States,Malaysia,low,individual,0.072,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0845,9606.34,USD,UAE,United States,medium,individual,0.347,N,3,N,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,43,N,beneficial ownership incomplete; high-risk country exposure
+TXN0846,9900,EUR,Hong Kong,United States,medium,individual,0.107,N,3,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0847,51815.95,USD,United Kingdom,United States,low,small_business,0.233,Y,3,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0848,12875.25,USD,Singapore,United States,low,individual,0.483,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0849,24271.83,SGD,Singapore,United States,low,individual,0.202,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0850,62157.96,USD,Indonesia,United States,low,small_business,0.228,Y,4,Y,Y,N,N,30,N,USD transaction; US nexus; large transaction with new counterparty,10,N,new counterparty
+TXN0851,11513.02,USD,Singapore,UAE,low,individual,0.481,N,3,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0852,24170.39,GBP,Indonesia,UAE,high,individual,0.591,Y,7,Y,Y,N,N,45,Y,elevated sanctions match score; high-risk customer; high-risk country exposure,45,Y,high-risk customer; new counterparty; high-risk country exposure
+TXN0853,87549.03,SGD,Hong Kong,British Virgin Islands,low,small_business,0.62,N,5,Y,Y,N,N,33,N,elevated sanctions match score; high-risk country exposure,15,N,high-risk country exposure
+TXN0854,194222.99,USD,United States,Singapore,medium,private_banking,0.097,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0855,16865.7,GBP,United States,Panama,low,individual,0.292,N,2,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0856,27210.28,GBP,United States,Hong Kong,low,small_business,0.167,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0857,14714.05,HKD,UAE,United States,medium,individual,0.53,N,5,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0858,19500,SGD,Singapore,Hong Kong,medium,individual,0.02,N,2,Y,Y,Y,N,30,N,structuring-like pattern,0,N,no major Singapore trigger
+TXN0859,275190.62,SGD,Singapore,United States,medium,corporate,0.061,N,1,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0860,18472.64,HKD,United Kingdom,Singapore,medium,small_business,0.138,Y,1,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0861,5699.74,USD,Hong Kong,United States,medium,individual,0.039,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0862,14033.39,USD,Singapore,Hong Kong,low,individual,0.387,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0863,551280.66,USD,Singapore,United States,high,corporate,0.315,N,10,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,42,N,high-risk customer; unusual transaction frequency; large transaction inconsistent with customer risk
+TXN0864,319399.17,USD,Singapore,Panama,low,corporate,0.311,N,4,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0865,27568.85,USD,Singapore,Malaysia,high,individual,0.335,N,2,Y,N,N,N,24,N,USD transaction; high-risk customer,45,Y,high-risk customer; wire transfer information incomplete
+TXN0866,20836.63,USD,Switzerland,United States,medium,individual,0.015,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0867,85299.42,SGD,United States,Hong Kong,medium,small_business,0.188,N,1,N,Y,N,N,10,N,US nexus,28,N,beneficial ownership incomplete
+TXN0868,72327.89,SGD,Indonesia,UAE,low,small_business,0.38,N,4,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0869,12113.37,SGD,United States,Singapore,low,individual,0.007,Y,2,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0870,11126.33,SGD,Singapore,Indonesia,high,individual,0.573,N,5,Y,Y,N,N,37,N,elevated sanctions match score; high-risk customer,20,N,high-risk customer
+TXN0871,9800,EUR,Hong Kong,United States,low,private_banking,0.146,N,3,Y,Y,Y,N,40,N,US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0872,534719.19,SGD,Switzerland,Singapore,high,corporate,0.342,N,2,Y,Y,N,N,12,N,high-risk customer,30,N,high-risk customer; large transaction inconsistent with customer risk
+TXN0873,149775.84,SGD,Singapore,UAE,medium,corporate,0.367,Y,4,Y,Y,N,N,16,N,high-risk country exposure; large transaction with new counterparty,35,N,new counterparty; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0874,231887.32,SGD,United States,Hong Kong,low,private_banking,0.442,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0875,8490.71,USD,Singapore,United States,high,individual,0.349,N,6,Y,Y,N,N,34,N,USD transaction; US nexus; high-risk customer,20,N,high-risk customer
+TXN0876,18454.4,USD,Singapore,United Kingdom,medium,individual,0.197,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0877,11952.2,GBP,Hong Kong,Singapore,high,individual,0.29,N,5,N,Y,N,N,12,N,high-risk customer,48,Y,high-risk customer; beneficial ownership incomplete
+TXN0878,74228.96,SGD,Malaysia,Singapore,low,small_business,0.273,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0879,5598.31,SGD,Singapore,Malaysia,low,individual,0.055,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0880,9200,SGD,United Kingdom,Singapore,medium,individual,0.244,Y,3,Y,Y,Y,N,30,N,structuring-like pattern,10,N,new counterparty
+TXN0881,2007.75,USD,UAE,Indonesia,medium,individual,0.353,N,1,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0882,5215.82,SGD,United States,Hong Kong,medium,individual,0.355,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0883,382242.51,USD,United States,British Virgin Islands,low,corporate,0.199,N,3,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0884,88672.66,USD,Singapore,United Kingdom,medium,small_business,0.199,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0885,4965.96,USD,Hong Kong,Singapore,low,small_business,0.032,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0886,14273.06,SGD,United States,Malaysia,low,small_business,0.122,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0887,348107.39,SGD,Singapore,UAE,low,private_banking,0.651,N,3,Y,Y,N,N,33,N,elevated sanctions match score; high-risk country exposure,15,N,high-risk country exposure
+TXN0888,24322.5,SGD,United States,Singapore,medium,individual,0.105,N,2,Y,N,N,N,10,N,US nexus,25,N,wire transfer information incomplete
+TXN0889,41609.99,GBP,Hong Kong,Malaysia,medium,small_business,0.154,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0890,39938.37,USD,Singapore,UAE,low,corporate,0.275,Y,3,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0891,134332.59,USD,British Virgin Islands,UAE,low,corporate,0.325,Y,2,Y,Y,N,N,28,N,USD transaction; high-risk country exposure; large transaction with new counterparty,25,N,new counterparty; high-risk country exposure
+TXN0892,42333.88,SGD,United States,Panama,low,small_business,0.558,N,5,Y,Y,N,N,43,N,elevated sanctions match score; US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0893,12186.61,USD,United Kingdom,Singapore,low,small_business,0.05,Y,3,Y,Y,N,N,12,N,USD transaction,10,N,new counterparty
+TXN0894,175491.94,GBP,Singapore,United States,medium,corporate,0.399,Y,1,Y,Y,N,N,18,N,US nexus; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0895,446012.86,GBP,United States,Hong Kong,medium,private_banking,0.035,N,1,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0896,207029.13,SGD,Singapore,United States,high,corporate,0.782,Y,6,N,Y,N,Y,75,Y,high sanctions match score; US nexus; high-risk customer; large transaction with new counterparty,83,Y,high-risk customer; beneficial ownership incomplete; new counterparty; large transaction inconsistent with customer risk; high sanctions match score
+TXN0897,84773.2,GBP,Switzerland,Singapore,low,corporate,0.118,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0898,9800,USD,United Kingdom,United States,low,individual,0.024,N,4,Y,Y,Y,N,52,Y,USD transaction; US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0899,24754.01,USD,United States,Hong Kong,medium,individual,0.094,N,3,N,Y,N,N,22,N,USD transaction; US nexus,28,N,beneficial ownership incomplete
+TXN0900,10383.45,USD,Indonesia,UAE,high,individual,0.453,N,4,Y,Y,N,N,32,N,USD transaction; high-risk customer; high-risk country exposure,35,N,high-risk customer; high-risk country exposure
+TXN0901,1438.73,SGD,United Kingdom,British Virgin Islands,medium,individual,0.691,N,3,Y,Y,N,N,33,N,elevated sanctions match score; high-risk country exposure,15,N,high-risk country exposure
+TXN0902,17612.02,SGD,United States,Singapore,medium,individual,0.131,Y,6,Y,Y,N,N,10,N,US nexus,10,N,new counterparty
+TXN0903,209405.86,USD,United States,Singapore,low,corporate,0.201,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0904,19638.41,USD,Singapore,Malaysia,medium,individual,0.21,Y,1,N,Y,N,N,12,N,USD transaction,38,N,beneficial ownership incomplete; new counterparty
+TXN0905,2368.37,USD,Switzerland,United States,low,individual,0.31,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0906,17129.0,USD,Singapore,Indonesia,low,individual,0.057,N,2,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0907,116354.99,GBP,Indonesia,Singapore,low,corporate,0.088,N,1,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0908,54200.07,GBP,Singapore,United States,high,corporate,0.134,Y,5,Y,Y,N,N,30,N,US nexus; high-risk customer; large transaction with new counterparty,30,N,high-risk customer; new counterparty
+TXN0909,10667.85,SGD,Malaysia,United States,low,individual,0.194,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0910,288793.35,HKD,United Kingdom,Switzerland,low,corporate,0.224,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0911,130143.07,USD,United States,Singapore,low,private_banking,0.273,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0912,9208.94,SGD,United States,UAE,medium,small_business,0.193,N,1,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0913,360687.29,SGD,Hong Kong,United States,low,corporate,0.084,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0914,262252.78,USD,United Kingdom,United States,low,corporate,0.173,N,5,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0915,16843.54,SGD,Singapore,UAE,medium,individual,0.292,N,6,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0916,359239.18,USD,British Virgin Islands,Singapore,low,corporate,0.687,N,4,Y,Y,N,N,45,Y,elevated sanctions match score; USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0917,14225.6,USD,United States,United Kingdom,low,individual,0.135,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0918,9500,USD,Singapore,Switzerland,medium,corporate,0.028,N,4,Y,Y,Y,N,42,N,USD transaction; structuring-like pattern,0,N,no major Singapore trigger
+TXN0919,1878.12,USD,Singapore,United States,low,individual,0.254,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0920,1097.57,USD,UAE,Switzerland,medium,individual,0.99,Y,1,Y,Y,N,Y,65,Y,high sanctions match score; USD transaction; high-risk country exposure,40,N,new counterparty; high-risk country exposure; high sanctions match score
+TXN0921,9358.87,GBP,Singapore,United Kingdom,high,individual,0.244,N,4,Y,Y,N,N,12,N,high-risk customer,20,N,high-risk customer
+TXN0922,17404.82,USD,United States,Malaysia,low,individual,0.145,Y,6,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0923,74470.24,USD,Singapore,United States,high,small_business,0.22,Y,5,N,Y,N,N,42,N,USD transaction; US nexus; high-risk customer; large transaction with new counterparty,58,Y,high-risk customer; beneficial ownership incomplete; new counterparty
+TXN0924,24436.06,USD,UAE,United States,high,small_business,0.411,Y,1,Y,Y,N,N,42,N,USD transaction; US nexus; high-risk customer; high-risk country exposure,45,Y,high-risk customer; new counterparty; high-risk country exposure
+TXN0925,252065.93,USD,Switzerland,Hong Kong,medium,corporate,0.148,Y,1,Y,Y,N,N,20,N,USD transaction; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0926,19500,USD,United States,Malaysia,medium,small_business,0.264,N,4,Y,Y,Y,N,52,Y,USD transaction; US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0927,318236.22,GBP,Indonesia,United States,low,corporate,0.255,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0928,3781.32,SGD,UAE,Panama,medium,individual,0.407,N,3,Y,Y,N,Y,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0929,8243.9,USD,United States,United Kingdom,low,individual,0.173,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0930,252157.23,EUR,United States,Singapore,medium,private_banking,0.045,N,3,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0931,15262.49,EUR,Indonesia,Hong Kong,low,individual,0.101,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0932,69916.63,USD,Switzerland,United Kingdom,medium,small_business,0.158,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0933,78464.1,EUR,Hong Kong,United States,low,small_business,0.327,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0934,23201.21,SGD,Malaysia,Switzerland,medium,individual,0.227,Y,3,N,Y,N,N,0,N,no major US trigger,38,N,beneficial ownership incomplete; new counterparty
+TXN0935,99522.32,HKD,Panama,United States,high,small_business,0.597,N,4,Y,N,N,N,55,Y,elevated sanctions match score; US nexus; high-risk customer; high-risk country exposure,60,Y,high-risk customer; wire transfer information incomplete; high-risk country exposure
+TXN0936,9075.21,SGD,Singapore,Hong Kong,medium,small_business,0.109,N,3,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0937,17428.69,USD,Singapore,United States,low,individual,0.029,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0938,16253.78,SGD,Singapore,Switzerland,medium,small_business,0.099,N,4,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0939,356101.12,SGD,Hong Kong,United Kingdom,medium,private_banking,0.25,N,1,Y,Y,N,N,0,N,no major US trigger,10,N,large transaction inconsistent with customer risk
+TXN0940,6239.75,HKD,Singapore,United States,medium,individual,0.079,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0941,9942.18,EUR,United States,UAE,low,individual,0.362,N,5,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0942,19513.81,USD,Singapore,United States,low,individual,0.107,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0943,18655.66,HKD,UAE,United Kingdom,low,individual,0.454,N,3,Y,Y,N,Y,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0944,82346.16,HKD,Singapore,United Kingdom,medium,small_business,0.181,Y,1,Y,Y,N,N,8,N,large transaction with new counterparty,10,N,new counterparty
+TXN0945,87612.7,SGD,Malaysia,United States,low,small_business,0.256,N,4,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0946,9974.24,USD,United States,Hong Kong,low,small_business,0.218,N,1,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0947,245789.65,EUR,United Kingdom,Singapore,low,corporate,0.317,N,6,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0948,14370.97,USD,Malaysia,UAE,low,individual,0.218,Y,3,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0949,252501.17,USD,Singapore,UAE,low,corporate,0.153,N,5,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0950,2468.81,SGD,United States,UAE,low,individual,0.531,N,2,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0951,40328.7,USD,Singapore,United States,medium,small_business,0.031,Y,1,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,new counterparty
+TXN0952,14192.11,USD,Panama,Hong Kong,medium,individual,0.338,N,6,Y,Y,N,N,20,N,USD transaction; high-risk country exposure,15,N,high-risk country exposure
+TXN0953,24543.47,SGD,Indonesia,Malaysia,low,individual,0.225,N,6,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0954,15008.44,USD,Singapore,United States,medium,individual,0.563,N,1,Y,Y,N,N,47,Y,elevated sanctions match score; USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0955,9015.73,USD,United States,United Kingdom,medium,individual,0.192,N,2,N,Y,N,N,22,N,USD transaction; US nexus,28,N,beneficial ownership incomplete
+TXN0956,195380.16,USD,Indonesia,Hong Kong,low,private_banking,0.049,N,3,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0957,192793.07,EUR,Singapore,Malaysia,low,corporate,0.118,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0958,21658.09,USD,Malaysia,United Kingdom,low,individual,0.554,N,3,Y,Y,N,N,37,N,elevated sanctions match score; USD transaction,0,N,no major Singapore trigger
+TXN0959,19760.67,SGD,United Kingdom,Malaysia,low,individual,0.13,Y,1,Y,Y,N,N,0,N,no major US trigger,10,N,new counterparty
+TXN0960,179230.02,USD,Singapore,United Kingdom,low,private_banking,0.093,N,1,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0961,22503.04,USD,United States,United Kingdom,medium,individual,0.231,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0962,640692.03,USD,Hong Kong,Malaysia,high,private_banking,0.15,N,1,Y,Y,N,N,24,N,USD transaction; high-risk customer,30,N,high-risk customer; large transaction inconsistent with customer risk
+TXN0963,7965.63,USD,Indonesia,United Kingdom,medium,individual,0.075,N,7,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0964,84880.1,EUR,United Kingdom,United States,high,small_business,0.202,N,10,Y,Y,N,N,22,N,US nexus; high-risk customer,32,N,high-risk customer; unusual transaction frequency
+TXN0965,39635.34,USD,Indonesia,United States,low,small_business,0.052,N,2,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN0966,304548.31,SGD,Singapore,Panama,low,corporate,0.625,N,2,Y,Y,N,N,33,N,elevated sanctions match score; high-risk country exposure,15,N,high-risk country exposure
+TXN0967,7361.1,EUR,United States,Panama,low,individual,0.127,Y,1,Y,Y,N,N,18,N,US nexus; high-risk country exposure,25,N,new counterparty; high-risk country exposure
+TXN0968,15961.89,SGD,Singapore,Malaysia,medium,individual,0.068,N,4,N,Y,N,N,0,N,no major US trigger,28,N,beneficial ownership incomplete
+TXN0969,22823.72,USD,Singapore,United Kingdom,medium,small_business,0.088,N,6,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0970,22750.66,GBP,United States,UAE,low,individual,0.332,N,3,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0971,101432.21,GBP,Hong Kong,United States,high,small_business,0.191,N,8,Y,Y,N,N,22,N,US nexus; high-risk customer,42,N,high-risk customer; unusual transaction frequency; large transaction inconsistent with customer risk
+TXN0972,1989.5,SGD,Singapore,Switzerland,medium,small_business,0.094,N,2,Y,Y,N,N,0,N,no major US trigger,0,N,no major Singapore trigger
+TXN0973,10570.65,USD,Singapore,Switzerland,low,individual,0.339,N,4,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0974,21763.69,USD,Indonesia,Hong Kong,low,small_business,0.023,N,5,Y,Y,N,N,12,N,USD transaction,0,N,no major Singapore trigger
+TXN0975,21331.31,HKD,Panama,Singapore,medium,individual,0.269,N,2,Y,Y,N,N,8,N,high-risk country exposure,15,N,high-risk country exposure
+TXN0976,51022.01,EUR,Indonesia,United States,low,small_business,0.26,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0977,229292.36,USD,Singapore,United States,medium,corporate,0.166,N,4,Y,Y,N,N,22,N,USD transaction; US nexus,10,N,large transaction inconsistent with customer risk
+TXN0978,65457.94,USD,Switzerland,Singapore,high,small_business,0.389,N,2,Y,Y,N,N,24,N,USD transaction; high-risk customer,20,N,high-risk customer
+TXN0979,12445.58,SGD,United States,UAE,low,individual,0.399,N,1,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0980,7278.15,SGD,United States,Hong Kong,low,individual,0.026,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0981,51113.33,USD,United States,UAE,medium,small_business,0.367,N,8,Y,Y,N,N,30,N,USD transaction; US nexus; high-risk country exposure,27,N,unusual transaction frequency; high-risk country exposure
+TXN0982,43984.02,USD,United States,Panama,high,small_business,0.602,Y,7,N,Y,N,Y,67,Y,elevated sanctions match score; USD transaction; US nexus; high-risk customer; high-risk country exposure,73,Y,high-risk customer; beneficial ownership incomplete; new counterparty; high-risk country exposure
+TXN0983,294020.63,EUR,Hong Kong,United States,medium,corporate,0.254,N,3,Y,Y,N,N,10,N,US nexus,10,N,large transaction inconsistent with customer risk
+TXN0984,23950.57,USD,Singapore,Hong Kong,high,individual,0.386,N,4,Y,Y,N,N,24,N,USD transaction; high-risk customer,20,N,high-risk customer
+TXN0985,58183.51,USD,Hong Kong,British Virgin Islands,medium,small_business,0.826,N,4,Y,Y,N,N,65,Y,high sanctions match score; USD transaction; high-risk country exposure,30,N,high-risk country exposure; high sanctions match score
+TXN0986,75781.83,SGD,Singapore,Switzerland,low,small_business,0.084,N,4,N,Y,N,N,0,N,no major US trigger,28,N,beneficial ownership incomplete
+TXN0987,109461.52,USD,British Virgin Islands,United States,high,small_business,0.365,Y,6,Y,Y,N,N,50,Y,USD transaction; US nexus; high-risk customer; high-risk country exposure; large transaction with new counterparty,55,Y,high-risk customer; new counterparty; high-risk country exposure; large transaction inconsistent with customer risk
+TXN0988,14746.3,EUR,United States,Hong Kong,medium,individual,0.244,Y,2,Y,Y,N,Y,10,N,US nexus,10,N,new counterparty
+TXN0989,76518.7,SGD,United States,United Kingdom,low,small_business,0.029,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0990,9500,USD,Singapore,United States,medium,individual,0.04,N,2,Y,Y,Y,N,52,Y,USD transaction; US nexus; structuring-like pattern,0,N,no major Singapore trigger
+TXN0991,132698.24,GBP,United States,Singapore,low,corporate,0.198,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0992,19800,USD,Singapore,Panama,medium,individual,0.311,N,2,Y,Y,Y,N,50,Y,USD transaction; structuring-like pattern; high-risk country exposure,15,N,high-risk country exposure
+TXN0993,233164.29,SGD,Hong Kong,United States,low,corporate,0.136,N,3,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0994,120495.37,SGD,Singapore,Panama,medium,private_banking,0.345,N,3,Y,Y,N,N,8,N,high-risk country exposure,25,N,high-risk country exposure; large transaction inconsistent with customer risk
+TXN0995,8378.71,EUR,United States,UAE,low,individual,0.299,N,5,Y,Y,N,N,18,N,US nexus; high-risk country exposure,15,N,high-risk country exposure
+TXN0996,16754.7,SGD,United Kingdom,United States,low,individual,0.218,N,1,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0997,63331.56,SGD,United States,Singapore,medium,private_banking,0.231,N,2,Y,Y,N,N,10,N,US nexus,0,N,no major Singapore trigger
+TXN0998,270849.27,SGD,Singapore,United States,medium,corporate,0.349,Y,2,Y,Y,N,N,18,N,US nexus; large transaction with new counterparty,20,N,new counterparty; large transaction inconsistent with customer risk
+TXN0999,7961.93,USD,United Kingdom,United States,low,individual,0.115,N,3,Y,Y,N,N,22,N,USD transaction; US nexus,0,N,no major Singapore trigger
+TXN1000,20791.98,SGD,Singapore,United States,high,small_business,0.516,Y,4,Y,N,N,N,22,N,US nexus; high-risk customer,55,Y,high-risk customer; wire transfer information incomplete; new counterparty
